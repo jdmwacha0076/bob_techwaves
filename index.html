@@ -14,7 +14,10 @@
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com" rel="preconnect" />
     <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"rel="stylesheet"/>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Vendor CSS Files -->
     <link
@@ -34,10 +37,29 @@
 
     <!-- Main CSS File -->
     <link href="assets/css/main.css" rel="stylesheet" />
+
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-FJDEEHJH3C"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-FJDEEHJH3C");
+    </script>
   </head>
 
   <body class="index-page">
-    <header id="header" class="header d-flex align-items-center fixed-top">
+    <header
+      id="header"
+      class="header d-flex align-items-center fixed-top"
+      style="background-color: #50c5ff"
+    >
       <div
         class="container position-relative d-flex align-items-center justify-content-between"
       >
@@ -45,10 +67,8 @@
           href="index.html"
           class="logo d-flex align-items-center me-auto me-xl-0"
         >
-          <!-- Uncomment the line below if you also wish to use an image logo -->
-          <img src="assets/img/logo.webp" alt="" />
+          <img src="assets/img/logo.png" alt="" />
           <h1 class="sitename">BOBTechWaves</h1>
-          <span>.</span>
         </a>
 
         <nav id="navmenu" class="navmenu">
@@ -63,7 +83,9 @@
           <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
 
-        <!-- <a class="btn-getstarted" href="#about">Anza Sasa</a> -->
+        <a class="btn-getstarted" href="#about" style="background-color: black"
+          >Anza Sasa</a
+        >
       </div>
     </header>
 
@@ -72,7 +94,7 @@
       <section id="hero" class="hero section">
         <div class="container" data-aos="fade-up" data-aos-delay="100">
           <div class="row align-items-center mb-5">
-            <div class="col-lg-6 mb-4 mb-lg-0">
+            <div class="col-lg-6">
               <div class="badge-wrapper mb-3">
                 <div
                   class="d-inline-flex align-items-center rounded-pill border border-accent-light"
@@ -80,10 +102,20 @@
                   <div class="icon-circle me-2">
                     <i class="bi bi-lightning-charge"></i>
                   </div>
-                  <span class="badge-text me-3">Suluhisho za Kidijitali</span>
+                  <span class="badge-text me-3">Suluhisho Kidijitali</span>
                 </div>
               </div>
+              <div class="hero-image">
+                <img
+                  src="assets/img/illustration/illustration-163.webp"
+                  alt="Ukuaji wa Biashara"
+                  class="img-fluid"
+                  loading="lazy"
+                />
+              </div>
+            </div>
 
+            <div class="col-lg-6 mb-4 mb-lg-0">
               <h1 class="hero-title mb-4">
                 Teknolojia ya Kisasa kwa Ukuaji wa Biashara Yako
               </h1>
@@ -95,17 +127,6 @@
 
               <div class="cta-wrapper">
                 <a href="#services" class="btn btn-primary">Angalia Zaidi</a>
-              </div>
-            </div>
-
-            <div class="col-lg-6">
-              <div class="hero-image">
-                <img
-                  src="assets/img/illustration/illustration-163.webp"
-                  alt="Ukuaji wa Biashara"
-                  class="img-fluid"
-                  loading="lazy"
-                />
               </div>
             </div>
           </div>
@@ -600,7 +621,7 @@
                   kupunguza gharama, na kutumia taarifa kwa maamuzi bora.
                 </p>
                 <div class="button-wrapper mt-4">
-                  <a class="btn btn-primary btn-lg" href="#services"
+                  <a class="btn btn-primary btn-lg me-3" href="#services"
                     ><span>Gundua Huduma Zetu Zote</span></a
                   >
                 </div>
@@ -1553,7 +1574,7 @@
               <div class="team-card">
                 <div class="team-image">
                   <img
-                    src="assets/img/person/joseph.png"
+                    src="assets/img/person/joseph.jpg"
                     class="img-fluid"
                     alt="Joseph Mwacha"
                   />
@@ -1731,8 +1752,8 @@
                 <div class="icon-box text-primary fs-1 mb-3">
                   <i class="bi bi-clock-fill"></i>
                 </div>
-                <h5>Muda wa Kufungua</h5>
-                <p>Jumatatu - Jumapili<br />Saa 2:00 Asubuhi - 12:00 Jioni</p>
+                <h5>Muda wa Kazi</h5>
+                <p>Jumatatu - Jumapili<br />Saa 2:00 Asubuhi - 4:00 usiku</p>
               </div>
             </div>
           </div>
@@ -1829,7 +1850,7 @@
                           class="form-control"
                           name="message"
                           rows="6"
-                          placeholder="Ujumbe wako hapa*"
+                          placeholder="Andika ujumbe wako hapa*"
                           required
                         ></textarea>
                       </div>
