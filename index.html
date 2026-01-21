@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -982,7 +982,8 @@
         <div class="container section-title" data-aos="fade-up">
           <h2>Wawakilishi wa wateja tunaowahudumia</h2>
           <p>
-           Tupo katika hatua za Utengenezaji kwa sasa, tutaanza kuhudumia wateja miaka ya mbeleni.
+            Tupo katika hatua za Utengenezaji kwa sasa, tutaanza kuhudumia
+            wateja miaka ya mbeleni.
           </p>
         </div>
 
@@ -1832,7 +1833,7 @@
                             Huduma kwa Wateja
                           </option>
                           <option value="Others">Mengineyo</option>
-                          </select>  
+                        </select>
                       </div>
                     </div>
 
@@ -1906,7 +1907,7 @@
                         } else {
                           return response.json().then((data) => {
                             throw new Error(
-                              data.error || "Samahani, ujumbe haukutumwa."
+                              data.error || "Samahani, ujumbe haukutumwa.",
                             );
                           });
                         }
@@ -1986,9 +1987,15 @@
       <!-- Copyright -->
       <div class="container text-center mt-4">
         <p class="mb-1">
-          © <strong>2025</strong> <span class="sitename">BOBTechWaves</span> -
-          Haki Zote Zimehifadhiwa
+          &copy; <strong><span id="currentYear"></span></strong>
+          <span class="sitename">BOBTechWaves</span> - Haki zote zimehifadhiwa
         </p>
+
+        <script>
+          document.getElementById("currentYear").textContent =
+            new Date().getFullYear();
+        </script>
+
         <div class="credits small">
           Imetengenezwa na <a href="#">BOBTechWaves</a>
         </div>
