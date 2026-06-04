@@ -6,7 +6,7 @@
   <meta content="width=device-width, initial-scale=1.0, viewport-fit=cover" name="viewport" />
   <meta name="theme-color" content="#0c1630" />
 
-  <title>BOBTechWaves — Digital Solutions for Modern Business</title>
+  <title>BOBTechWaves</title>
   <meta name="description"
     content="BOBTechWaves builds web systems, business automation, event technology, digital invitations, QR solutions, and SMS/WhatsApp communication tools for Tanzanian businesses." />
   <meta name="keywords"
@@ -20,7 +20,7 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZFB65R60JN"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
     gtag('config', 'G-ZFB65R60JN');
   </script>
@@ -46,15 +46,23 @@
 
   <!-- =====================================================================
        Topbar
-       ===================================================================== -->
+  ===================================================================== -->
   <header class="btw-topbar" id="btwTopbar">
     <div class="btw-wrap btw-topbar__row">
-
       <a class="btw-brand" href="#home">
-        <span class="btw-brand__mark">B</span>
+        <span class="btw-foot__brand-mark">
+          <img src="assets/img/logo2.webp" alt="BOBTechWaves Logo">
+        </span>
+
         <span class="btw-brand__txt">
-          <span class="btw-brand__name">BOBTechWaves</span>
-          <span class="btw-brand__sub" data-en="Digital Solutions" data-sw="Suluhisho za Kidijitali">Digital Solutions</span>
+          <span class="btw-foot__brand-text">
+            BOB<span>TechWaves</span>
+          </span>
+
+          <span class="btw-brand__sub" data-en="Services that meet customer needs"
+            data-sw="Huduma zinazokidhi mahitaji ya wateja">
+            Services that meet customer needs
+          </span>
         </span>
       </a>
 
@@ -67,7 +75,7 @@
           <li><a class="btw-menu__link" href="#projects" data-en="Products" data-sw="Bidhaa">Products</a></li>
           <li><a class="btw-menu__link" href="#flow" data-en="Process" data-sw="Mchakato">Process</a></li>
           <li><a class="btw-menu__link" href="#team" data-en="Team" data-sw="Timu">Team</a></li>
-          <li><a class="btw-menu__link" href="#faq" data-en="FAQ" data-sw="Maswali">FAQ</a></li>
+          <li><a class="btw-menu__link" href="#faq" data-en="FAQ" data-sw="Maswali">FAQs</a></li>
           <li><a class="btw-menu__link" href="#contact" data-en="Contact" data-sw="Wasiliana">Contact</a></li>
         </ul>
       </nav>
@@ -90,27 +98,38 @@
   <aside class="btw-drawer" id="btwDrawer" aria-label="Mobile navigation">
     <div class="btw-drawer__head">
       <div class="btw-brand">
-        <span class="btw-brand__mark">B</span>
-        <span class="btw-brand__txt">
-          <span class="btw-brand__name">BOBTechWaves</span>
-          <span class="btw-brand__sub" data-en="Digital Solutions" data-sw="Suluhisho za Kidijitali">Digital Solutions</span>
+        <span class="btw-foot__brand-mark">
+          <img src="assets/img/logo2.webp" alt="BOBTechWaves Logo">
         </span>
+
+        <span class="btw-foot__brand-text">BOB<span>TechWaves</span></span>
+
       </div>
       <button class="btw-drawer__close" id="btwDrawerClose" type="button" aria-label="Close menu">
         <i class="bi bi-x-lg"></i>
       </button>
     </div>
     <nav class="btw-drawer__list">
-      <a class="btw-drawer__link" href="#home"><i class="bi bi-house-door-fill"></i><span data-en="Home" data-sw="Nyumbani">Home</span></a>
-      <a class="btw-drawer__link" href="#about"><i class="bi bi-info-circle-fill"></i><span data-en="About" data-sw="Kuhusu">About</span></a>
-      <a class="btw-drawer__link" href="#services"><i class="bi bi-grid-1x2-fill"></i><span data-en="Services" data-sw="Huduma">Services</span></a>
-      <a class="btw-drawer__link" href="#unique"><i class="bi bi-stars"></i><span data-en="What Makes Us Different" data-sw="Tofauti Yetu">What Makes Us Different</span></a>
-      <a class="btw-drawer__link" href="#projects"><i class="bi bi-collection-fill"></i><span data-en="Products" data-sw="Bidhaa">Products</span></a>
-      <a class="btw-drawer__link" href="#flow"><i class="bi bi-diagram-3-fill"></i><span data-en="How We Work" data-sw="Jinsi Tunavyofanya">How We Work</span></a>
-      <a class="btw-drawer__link" href="#team"><i class="bi bi-people-fill"></i><span data-en="Team" data-sw="Timu">Team</span></a>
-      <a class="btw-drawer__link" href="#faq"><i class="bi bi-patch-question-fill"></i><span data-en="FAQ" data-sw="Maswali">FAQ</span></a>
-      <a class="btw-drawer__link" href="#contact"><i class="bi bi-envelope-fill"></i><span data-en="Contact" data-sw="Wasiliana">Contact</span></a>
-      <a class="btw-drawer__link is-cta" href="#contact"><i class="bi bi-arrow-right"></i><span data-en="Start a Project" data-sw="Anza Mradi">Start a Project</span></a>
+      <a class="btw-drawer__link" href="#home"><i class="bi bi-house-door-fill"></i><span data-en="Home"
+          data-sw="Nyumbani">Home</span></a>
+      <a class="btw-drawer__link" href="#about"><i class="bi bi-info-circle-fill"></i><span data-en="About"
+          data-sw="Kuhusu">About</span></a>
+      <a class="btw-drawer__link" href="#services"><i class="bi bi-grid-1x2-fill"></i><span data-en="Services"
+          data-sw="Huduma">Services</span></a>
+      <a class="btw-drawer__link" href="#unique"><i class="bi bi-stars"></i><span data-en="What Makes Us Different"
+          data-sw="Tofauti Yetu">What Makes Us Different</span></a>
+      <a class="btw-drawer__link" href="#projects"><i class="bi bi-collection-fill"></i><span data-en="Products"
+          data-sw="Bidhaa">Products</span></a>
+      <a class="btw-drawer__link" href="#flow"><i class="bi bi-diagram-3-fill"></i><span data-en="How We Work"
+          data-sw="Jinsi Tunavyofanya">How We Work</span></a>
+      <a class="btw-drawer__link" href="#team"><i class="bi bi-people-fill"></i><span data-en="Team"
+          data-sw="Timu">Team</span></a>
+      <a class="btw-drawer__link" href="#faq"><i class="bi bi-patch-question-fill"></i><span data-en="FAQ"
+          data-sw="Maswali">FAQ</span></a>
+      <a class="btw-drawer__link" href="#contact"><i class="bi bi-envelope-fill"></i><span data-en="Contact"
+          data-sw="Wasiliana">Contact</span></a>
+      <a class="btw-drawer__link is-cta" href="#contact"><i class="bi bi-arrow-right"></i><span
+          data-en="Start a Project" data-sw="Anza Mradi">Start a Project</span></a>
       <div class="btw-drawer__lang">
         <button class="btw-lang__btn is-on" type="button" data-lang="en">EN</button>
         <button class="btw-lang__btn" type="button" data-lang="sw">SW</button>
@@ -125,10 +144,12 @@
          ===================================================================== -->
     <section class="btw-stage" id="home">
       <div class="btw-stage__bg" id="btwHeroBg">
-        <img src="assets/img/about/about-1.webp" class="is-on" alt="" />
-        <img src="assets/img/about/about-2.webp" alt="" />
-        <img src="assets/img/about/about-3.webp" alt="" />
-        <img src="assets/img/illustration/hero.webp" alt="" />
+        <img src="assets/img/illustration/hero-1.webp" class="is-on" alt="" />
+        <img src="assets/img/illustration/hero-2.webp" alt="" />
+        <img src="assets/img/illustration/hero-3.webp" alt="" />
+        <img src="assets/img/illustration/hero-4.webp" alt="" />
+        <img src="assets/img/illustration/hero-5.webp" alt="" />
+        <img src="assets/img/illustration/hero-6.webp" alt="" />
       </div>
       <div class="btw-stage__veil"></div>
 
@@ -137,19 +158,20 @@
 
           <span class="btw-stage__kicker">
             <i class="bi bi-lightning-charge-fill"></i>
-            <span data-en="BOBTechWaves · Digital Solutions Company"
-                  data-sw="BOBTechWaves · Kampuni ya Kidijitali">BOBTechWaves · Digital Solutions Company</span>
+            <span data-en="BOBTechWaves | Digital Innovation" data-sw="BOBTechWaves | Ubunifu wa Kidijitali">
+              BOBTechWaves | Digital Innovation
+            </span>
           </span>
 
-          <h1 data-en="Smarter technology. Faster business. Across Tanzania."
-              data-sw="Teknolojia bora. Biashara ya haraka. Kote Tanzania.">
-            Smarter technology. Faster business. Across Tanzania.
+          <h1 data-en="Using digital innovation to improve everyday activities."
+            data-sw="Kutumia ubunifu wa kidijitali kuboresha shughuli za kila siku.">
+            Using digital innovation to improve everyday activities.
           </h1>
 
           <p class="btw-stage__lead"
-             data-en="We help businesses, institutions, and organisations use technology more effectively — through web systems, business automation, event technology, digital invitations, QR solutions, and modern communication tools."
-             data-sw="Tunasaidia biashara, taasisi na mashirika kutumia teknolojia kwa ufanisi zaidi — kupitia mifumo ya tovuti, otomatiki ya biashara, teknolojia ya matukio, mialiko ya kidijitali, suluhisho za QR, na zana za mawasiliano za kisasa.">
-            We help businesses, institutions, and organisations use technology more effectively.
+            data-en="At BOBTechWaves, we design practical digital solutions that help people, businesses, institutions, and organisations work better, save time, improve communication, manage events, simplify processes, and create better experiences through technology."
+            data-sw="BOBTechWaves tunabuni suluhisho rahisi na za vitendo za kidijitali zinazosaidia watu, biashara, taasisi na mashirika kufanya kazi kwa ufanisi zaidi, kuokoa muda, kuboresha mawasiliano, kurahisisha michakato, kusimamia matukio, na kutengeneza uzoefu bora kupitia teknolojia.">
+            At BOBTechWaves, we design practical digital solutions that help improve activities through technology.
           </p>
 
           <div class="btw-stage__ctas">
@@ -169,7 +191,8 @@
               <div>
                 <small data-en="Trusted Partner" data-sw="Mshirika wa Kuaminika">Trusted Partner</small>
                 <strong data-en="Building real systems for real businesses"
-                        data-sw="Tunajenga mifumo halisi kwa biashara halisi">Building real systems for real businesses</strong>
+                  data-sw="Tunajenga mifumo halisi kwa biashara halisi">Building real systems for real
+                  businesses</strong>
               </div>
             </div>
             <div class="btw-stage__stats">
@@ -178,7 +201,7 @@
                 <span data-en="Systems Shipped" data-sw="Mifumo Iliyojengwa">Systems Shipped</span>
               </div>
               <div class="btw-stage__stat">
-                <strong>50+</strong>
+                <strong>20+</strong>
                 <span data-en="Satisfied Clients" data-sw="Wateja Wenye Furaha">Satisfied Clients</span>
               </div>
               <div class="btw-stage__stat">
@@ -200,58 +223,65 @@
         <div class="btw-about__grid">
 
           <div data-aos="fade-right">
-            <span class="btw-head__pill"><i class="bi bi-info-circle-fill"></i>
-              <span data-en="About BOBTechWaves" data-sw="Kuhusu BOBTechWaves">About BOBTechWaves</span>
+            <span class="btw-head__pill">
+              <i class="bi bi-info-circle-fill"></i>
+              <span data-en="About BOBTechWaves" data-sw="Kuhusu BOBTechWaves">
+                About BOBTechWaves
+              </span>
             </span>
-            <h2 class="btw-about__h2"
-                data-en="A digital partner that builds, automates, and supports."
-                data-sw="Mshirika wa kidijitali anayejenga, anayoboresha na anayesimamia.">
-              A digital partner that builds, automates, and supports.
+
+            <h2 class="btw-about__h2" data-en="Driving innovation through practical digital solutions."
+              data-sw="Kuendesha ubunifu kupitia suluhisho za kidijitali zenye manufaa.">
+              Driving innovation through practical digital solutions.
             </h2>
 
             <p class="btw-about__lead"
-               data-en="BOBTechWaves is a digital solutions company based in Tanzania, working with businesses, institutions, and organisations to deliver real software products that move work forward."
-               data-sw="BOBTechWaves ni kampuni ya suluhisho za kidijitali yenye makao Tanzania, ikifanya kazi na biashara, taasisi na mashirika kufikisha mifumo halisi inayosaidia kazi kwenda mbele.">
-              BOBTechWaves is a digital solutions company based in Tanzania.
+              data-en="BOBTechWaves is a Tanzanian digital innovation startup dedicated to helping people, organisations, institutions, and businesses improve the way they work through technology."
+              data-sw="BOBTechWaves ni kampuni ya ubunifu wa kidijitali ya Tanzania inayosaidia watu, taasisi, mashirika na biashara kuboresha namna wanavyofanya kazi kupitia teknolojia.">
+              BOBTechWaves is a Tanzanian digital innovation startup helping people and organisations work better
+              through technology.
             </p>
 
             <p class="btw-about__body"
-               data-en="From web platforms to automation, from event technology to QR-based digital invitations, we focus on building tools that are clear, fast, secure, and easy for everyday teams to use. Every solution is shaped by real local context — practical timelines, realistic budgets, and the actual problems Tanzanian businesses face."
-               data-sw="Kutoka majukwaa ya wavuti hadi otomatiki, kutoka teknolojia ya matukio hadi mialiko ya kidijitali yenye QR, tunalenga kujenga zana zilizo wazi, za haraka, salama, na rahisi kutumia. Kila suluhisho linatengenezwa kulingana na mazingira halisi — muda halisi, bajeti halisi, na matatizo halisi ya biashara za Tanzania.">
-              From web platforms to automation, from event technology to QR-based digital invitations, we focus on building tools that work.
+              data-en="We create innovative digital products and technology solutions that simplify processes, improve communication, automate repetitive tasks, support events, enhance service delivery, and unlock new opportunities for growth. Our focus is on building solutions that are practical, accessible, and impactful in real-world environments."
+              data-sw="Tunabuni bidhaa na suluhisho za kidijitali zinazorahisisha shughuli, kuboresha mawasiliano, kufanya otomatiki kazi za kurudiwa, kusaidia usimamizi wa matukio, kuboresha utoaji wa huduma, na kufungua fursa mpya za maendeleo. Tunajikita katika kujenga suluhisho zenye manufaa halisi na zinazoweza kutumika katika mazingira ya kila siku.">
+              We create innovative digital solutions that simplify processes, improve communication, automate tasks, and
+              create positive impact.
             </p>
 
             <div class="btw-mini-grid">
               <div class="btw-mini">
                 <span class="btw-mini__tag" data-en="Who" data-sw="Sisi ni Nani">Who</span>
                 <span class="btw-mini__txt"
-                      data-en="Tanzanian-based team building digital products for the local market."
-                      data-sw="Timu ya Tanzania inayojenga bidhaa za kidijitali kwa soko la ndani.">
-                  Tanzanian-based team building digital products for the local market.
+                  data-en="A Tanzanian technology and innovation team building practical digital solutions."
+                  data-sw="Timu ya Tanzania ya teknolojia na ubunifu inayojenga suluhisho za kidijitali zenye manufaa.">
+                  A Tanzanian technology and innovation team building practical digital solutions.
                 </span>
               </div>
+
               <div class="btw-mini">
                 <span class="btw-mini__tag" data-en="How" data-sw="Tunafanyaje">How</span>
                 <span class="btw-mini__txt"
-                      data-en="Clear scope, clean code, predictable delivery, honest pricing."
-                      data-sw="Lengo wazi, code safi, utekelezaji wa uhakika, bei halisi.">
-                  Clear scope, clean code, predictable delivery, honest pricing.
+                  data-en="By combining innovation, technology, and local understanding to solve real challenges."
+                  data-sw="Kwa kuunganisha ubunifu, teknolojia na uelewa wa mazingira halisi kutatua changamoto.">
+                  By combining innovation, technology, and local understanding to solve real challenges.
                 </span>
               </div>
+
               <div class="btw-mini">
                 <span class="btw-mini__tag" data-en="Why" data-sw="Kwa Nini">Why</span>
                 <span class="btw-mini__txt"
-                      data-en="Help teams save time, reduce errors, and make better decisions."
-                      data-sw="Kusaidia timu kuokoa muda, kupunguza makosa na kufanya maamuzi bora.">
-                  Help teams save time, reduce errors, and make better decisions.
+                  data-en="To help people and organisations save time, improve efficiency, and achieve more."
+                  data-sw="Kusaidia watu na taasisi kuokoa muda, kuongeza ufanisi na kufikia zaidi.">
+                  To help people and organisations save time, improve efficiency, and achieve more.
                 </span>
               </div>
+
               <div class="btw-mini">
-                <span class="btw-mini__tag" data-en="Future" data-sw="Mbele">Future</span>
-                <span class="btw-mini__txt"
-                      data-en="Becoming a reliable digital partner across East Africa."
-                      data-sw="Kuwa mshirika wa kuaminika wa kidijitali kote Afrika Mashariki.">
-                  Becoming a reliable digital partner across East Africa.
+                <span class="btw-mini__tag" data-en="Vision" data-sw="Dira">Vision</span>
+                <span class="btw-mini__txt" data-en="To become a leading digital innovation partner across Africa."
+                  data-sw="Kuwa mshirika kinara wa ubunifu wa kidijitali barani Afrika.">
+                  To become a leading digital innovation partner across Africa.
                 </span>
               </div>
             </div>
@@ -264,8 +294,8 @@
                 <div class="btw-about__overlay-inner">
                   <div class="btw-about__overlay-ico"><i class="bi bi-check-lg"></i></div>
                   <h4 data-en="Built to last" data-sw="Imejengwa kudumu">Built to last</h4>
-                  <p data-en="Clean architecture and solid security — your system grows with you."
-                     data-sw="Muundo safi na usalama madhubuti — mfumo wako unakua nawe.">
+                  <p data-en="Clean architecture and solid security - your system grows with you."
+                    data-sw="Muundo safi na usalama madhubuti - mfumo wako unakua nawe.">
                     Clean architecture and solid security.
                   </p>
                 </div>
@@ -285,25 +315,27 @@
           <div class="btw-pillar" data-aos="fade-up">
             <div class="btw-pillar__ico"><i class="bi bi-bullseye"></i></div>
             <h5 data-en="Our Mission" data-sw="Dhamira Yetu">Our Mission</h5>
-            <p data-en="Empower businesses and institutions with practical digital tools that improve efficiency, transparency, and decision-making every day."
-               data-sw="Kuziwezesha biashara na taasisi kwa zana halisi za kidijitali zinazoongeza ufanisi, uwazi, na maamuzi bora kila siku.">
-              Empower businesses and institutions with practical digital tools.
+            <p data-en="To use digital innovation to simplify activities, improve communication, increase efficiency, and create practical solutions that bring real value to people, businesses, institutions, and communities."
+              data-sw="Kutumia ubunifu wa kidijitali kurahisisha shughuli, kuboresha mawasiliano, kuongeza ufanisi, na kuunda suluhisho zenye manufaa kwa watu, biashara, taasisi na jamii.">
+              To use digital innovation to simplify activities and create real value.
             </p>
           </div>
+
           <div class="btw-pillar" data-aos="fade-up" data-aos-delay="100">
             <div class="btw-pillar__ico"><i class="bi bi-eye-fill"></i></div>
             <h5 data-en="Our Vision" data-sw="Dira Yetu">Our Vision</h5>
-            <p data-en="To be a leading digital solutions partner across East Africa — known for craftsmanship, reliability, and long-term client success."
-               data-sw="Kuwa mshirika kinara wa suluhisho za kidijitali Afrika Mashariki — tunajulikana kwa ubora, uthabiti na mafanikio ya muda mrefu.">
-              To be a leading digital solutions partner across East Africa.
+            <p data-en="To become a trusted digital innovation partner across Africa, helping people and organisations use technology to work smarter, connect better, and grow sustainably."
+              data-sw="Kuwa mshirika wa kuaminika wa ubunifu wa kidijitali barani Afrika, tukisaidia watu na taasisi kutumia teknolojia kufanya kazi kwa ufanisi, kuunganishwa vizuri, na kukua kwa uendelevu.">
+              To become a trusted digital innovation partner across Africa.
             </p>
           </div>
+
           <div class="btw-pillar" data-aos="fade-up" data-aos-delay="200">
             <div class="btw-pillar__ico"><i class="bi bi-heart-fill"></i></div>
             <h5 data-en="Our Values" data-sw="Maadili Yetu">Our Values</h5>
-            <p data-en="Honesty, craft, accountability, and steady improvement — guided by the real needs of the businesses we serve."
-               data-sw="Uaminifu, ubora, uwajibikaji, na uboreshaji endelevu — vikiongozwa na mahitaji halisi ya wateja wetu.">
-              Honesty, craft, accountability, and steady improvement.
+            <p data-en="Innovation, honesty, accountability, creativity, and continuous improvement - guided by real needs and the desire to make technology useful in everyday life."
+              data-sw="Ubunifu, uaminifu, uwajibikaji, ubunifu wa fikra, na uboreshaji endelevu - tukiongozwa na mahitaji halisi na dhamira ya kufanya teknolojia iwe na manufaa katika maisha ya kila siku.">
+              Innovation, honesty, accountability, creativity, and continuous improvement.
             </p>
           </div>
         </div>
@@ -311,21 +343,25 @@
       </div>
     </section>
 
+
+
     <!-- =====================================================================
-         Services
-         ===================================================================== -->
+     Services
+     ===================================================================== -->
     <section class="btw-section btw-section--tinted" id="services">
       <div class="btw-wrap">
 
         <div class="btw-head" data-aos="fade-up">
           <span class="btw-head__pill" data-en="What We Do" data-sw="Tunachofanya">What We Do</span>
-          <h2 data-en="Digital solutions tailored to how your team actually works"
-              data-sw="Suluhisho za kidijitali zinazoendana na jinsi timu yako inavyofanya kazi">
-            Digital solutions tailored to how your team actually works
+
+          <h2 data-en="Digital solutions that simplify everyday activities"
+            data-sw="Suluhisho za kidijitali zinazorahisisha shughuli za kila siku">
+            Digital solutions that simplify everyday activities
           </h2>
-          <p data-en="Not generic templates — every product is shaped by the real workflow, real budget, and real goals of the people who will use it."
-             data-sw="Si templates za kawaida — kila bidhaa inajengwa kulingana na utendaji halisi, bajeti halisi, na malengo halisi ya watu watakaoitumia.">
-            Not generic templates — every product is shaped by real workflow and goals.
+
+          <p data-en="We use technology and innovation to help people, institutions, and businesses work better, save time, improve communication, and deliver services more efficiently."
+            data-sw="Tunatumia teknolojia na ubunifu kusaidia watu, taasisi na biashara kufanya kazi vizuri, kuokoa muda, kuboresha mawasiliano na kutoa huduma kwa ufanisi zaidi.">
+            We use technology and innovation to help people and organisations work better.
           </p>
         </div>
 
@@ -333,73 +369,73 @@
 
           <article class="btw-svc" data-aos="fade-up">
             <div class="btw-svc__ico"><i class="bi bi-window-stack"></i></div>
-            <h3 data-en="Web Systems & Platforms" data-sw="Mifumo na Majukwaa ya Tovuti">Web Systems &amp; Platforms</h3>
-            <p data-en="Custom dashboards, internal tools, and customer-facing platforms built from clear scope to confident launch."
-               data-sw="Dashibodi maalum, zana za ndani, na majukwaa ya wateja — kutoka lengo wazi hadi uzinduzi salama.">
-              Custom dashboards, internal tools, and customer-facing platforms.
+            <h3 data-en="Digital Platforms" data-sw="Majukwaa ya Kidijitali">Digital Platforms</h3>
+            <p data-en="Web and mobile platforms that make information, services, and collaboration easier to manage."
+              data-sw="Majukwaa ya wavuti na simu yanayorahisisha usimamizi wa taarifa, huduma na ushirikiano.">
+              Web and mobile platforms for better service delivery.
             </p>
           </article>
 
           <article class="btw-svc btw-svc--accent" data-aos="fade-up" data-aos-delay="60">
             <div class="btw-svc__ico"><i class="bi bi-arrow-repeat"></i></div>
-            <h3 data-en="Business Automation" data-sw="Otomatiki ya Biashara">Business Automation</h3>
-            <p data-en="Replace repetitive manual work with reliable workflows — fewer errors, faster reports, happier staff."
-               data-sw="Badilisha kazi za kurudia rudia na utendaji wa kiotomatiki — makosa machache, ripoti za haraka.">
-              Replace repetitive manual work with reliable workflows.
+            <h3 data-en="Process Automation" data-sw="Otomatiki ya Shughuli">Process Automation</h3>
+            <p data-en="Smart workflows that reduce manual work, save time, and improve accuracy."
+              data-sw="Mifumo janja inayopunguza kazi za mkono, kuokoa muda na kuongeza usahihi.">
+              Reduce manual work and improve efficiency.
             </p>
           </article>
 
           <article class="btw-svc" data-aos="fade-up" data-aos-delay="120">
             <div class="btw-svc__ico"><i class="bi bi-calendar-event-fill"></i></div>
-            <h3 data-en="Event Technology" data-sw="Teknolojia ya Matukio">Event Technology</h3>
-            <p data-en="Promote events, manage panellists, and capture questions live — public, private, paid, or free."
-               data-sw="Tangaza matukio, simamia panelists, na pokea maswali papo hapo — ya umma, faragha, ya kulipia au bure.">
-              Promote events, manage panellists, capture audience questions.
+            <h3 data-en="Event Innovation" data-sw="Ubunifu wa Matukio">Event Innovation</h3>
+            <p data-en="Digital tools for event registration, communication, engagement, and management."
+              data-sw="Zana za kidijitali kwa usajili, mawasiliano, ushiriki na usimamizi wa matukio.">
+              Better event planning and audience engagement.
             </p>
           </article>
 
           <article class="btw-svc" data-aos="fade-up" data-aos-delay="180">
             <div class="btw-svc__ico"><i class="bi bi-qr-code"></i></div>
-            <h3 data-en="QR Solutions" data-sw="Suluhisho za QR">QR Solutions</h3>
-            <p data-en="QR-based check-in, attendance tracking, asset tagging, and on-demand digital information sharing."
-               data-sw="Check-in kwa QR, ufuatiliaji wa mahudhurio, alama za mali, na ushiriki wa taarifa kidijitali.">
-              QR-based check-in, attendance tracking, asset tagging.
+            <h3 data-en="Smart QR Solutions" data-sw="Suluhisho za QR">Smart QR Solutions</h3>
+            <p data-en="QR solutions for faster access to information, attendance, verification, and services."
+              data-sw="Suluhisho za QR kwa upatikanaji wa haraka wa taarifa, mahudhurio, uhakiki na huduma.">
+              Fast access to information and services.
             </p>
           </article>
 
           <article class="btw-svc btw-svc--accent" data-aos="fade-up">
             <div class="btw-svc__ico"><i class="bi bi-envelope-paper-heart-fill"></i></div>
-            <h3 data-en="Digital Invitations (MUALIKO)" data-sw="Mialiko ya Kidijitali (MUALIKO)">Digital Invitations (MUALIKO)</h3>
-            <p data-en="Modern, branded invitation cards for weddings and events — with QR codes, smooth distribution, and live RSVPs."
-               data-sw="Mialiko ya kisasa kwa harusi na matukio — yenye QR codes, usambazaji rahisi, na ufuatiliaji wa wageni.">
-              Modern, branded invitation cards with QR codes and live RSVPs.
+            <h3 data-en="Digital Invitations" data-sw="Mialiko ya Kidijitali">Digital Invitations</h3>
+            <p data-en="Modern invitation solutions with QR, guest management, reminders, and RSVP support."
+              data-sw="Mialiko ya kisasa yenye QR, usimamizi wa wageni, vikumbusho na RSVP.">
+              Modern digital invitations for events.
             </p>
           </article>
 
           <article class="btw-svc" data-aos="fade-up" data-aos-delay="60">
             <div class="btw-svc__ico"><i class="bi bi-chat-dots-fill"></i></div>
-            <h3 data-en="SMS & WhatsApp Tools" data-sw="Zana za SMS na WhatsApp">SMS &amp; WhatsApp Tools</h3>
-            <p data-en="Bulk SMS, WhatsApp blasts, and notification systems that reach your customers, members, or staff instantly."
-               data-sw="SMS kwa wingi, ujumbe wa WhatsApp, na mifumo ya taarifa inayofikia wateja, wanachama au wafanyakazi kwa haraka.">
-              Bulk SMS, WhatsApp blasts, and notification systems.
+            <h3 data-en="Digital Communication" data-sw="Mawasiliano ya Kidijitali">Digital Communication</h3>
+            <p data-en="SMS, WhatsApp, email, and notification tools that keep people informed and connected."
+              data-sw="Zana za SMS, WhatsApp, barua pepe na taarifa zinazosaidia watu kupata ujumbe kwa wakati.">
+              Keep people informed and connected.
             </p>
           </article>
 
           <article class="btw-svc" data-aos="fade-up" data-aos-delay="120">
             <div class="btw-svc__ico"><i class="bi bi-lightbulb-fill"></i></div>
-            <h3 data-en="Technology Consulting" data-sw="Ushauri wa Kiteknolojia">Technology Consulting</h3>
-            <p data-en="Honest, vendor-neutral advice on the right stack, the right scope, and the right investment for your stage."
-               data-sw="Ushauri wa wazi kuhusu teknolojia sahihi, lengo sahihi, na uwekezaji sahihi kwa hatua yako.">
-              Honest, vendor-neutral technology advice.
+            <h3 data-en="Innovation Advisory" data-sw="Ushauri wa Ubunifu">Innovation Advisory</h3>
+            <p data-en="Guidance on how technology can solve problems, improve services, and create new opportunities."
+              data-sw="Ushauri wa namna teknolojia inavyoweza kutatua changamoto, kuboresha huduma na kuleta fursa mpya.">
+              Turning ideas into useful digital solutions.
             </p>
           </article>
 
           <article class="btw-svc btw-svc--accent" data-aos="fade-up" data-aos-delay="180">
             <div class="btw-svc__ico"><i class="bi bi-cloud-fill"></i></div>
-            <h3 data-en="Cloud & Microsoft 365" data-sw="Cloud na Microsoft 365">Cloud &amp; Microsoft 365</h3>
-            <p data-en="Domains, mailboxes, secure file storage, and Microsoft 365 setup — deployed cleanly without the usual headaches."
-               data-sw="Domains, mailboxes, kuhifadhi salama, na Microsoft 365 — kusanidiwa bila usumbufu wa kawaida.">
-              Domains, mailboxes, secure storage, and Microsoft 365 setup.
+            <h3 data-en="Cloud & Digital Workplace" data-sw="Cloud na Kazi za Kidijitali">Cloud & Digital Workplace</h3>
+            <p data-en="Cloud tools for secure storage, teamwork, communication, and productivity."
+              data-sw="Zana za cloud kwa uhifadhi salama, ushirikiano, mawasiliano na ufanisi wa kazi.">
+              Modern tools for connected teams.
             </p>
           </article>
 
@@ -407,22 +443,21 @@
       </div>
     </section>
 
+
     <!-- =====================================================================
-         Unique Services — Huduma Zetu Zenye Tofauti
+         Unique Services - Huduma Zetu Zenye Tofauti
          ===================================================================== -->
     <section class="btw-section" id="unique">
       <div class="btw-wrap">
 
         <div class="btw-head" data-aos="fade-up">
-          <span class="btw-head__pill"
-                data-en="What Makes Us Different"
-                data-sw="Tofauti Yetu">What Makes Us Different</span>
-          <h2 data-en="Huduma Zetu Zenye Tofauti"
-              data-sw="Huduma Zetu Zenye Tofauti">
+          <span class="btw-head__pill" data-en="What Makes Us Different" data-sw="Tofauti Yetu">What Makes Us
+            Different</span>
+          <h2 data-en="What Makes Our Services Different" data-sw="Huduma Zetu Zenye Tofauti">
             Huduma Zetu Zenye Tofauti
           </h2>
-          <p data-en="Six specialised services where BOBTechWaves stands out — built on deep experience, real Tanzanian context, and a craftsmanship-first mindset."
-             data-sw="Huduma sita maalum ambapo BOBTechWaves inajitokeza — zimejengwa kwa uzoefu wa kina, mazingira halisi ya Tanzania, na mtazamo wa ubora kwanza.">
+          <p data-en="Six specialised services where BOBTechWaves stands out - built on deep experience, real Tanzanian context, and a craftsmanship-first mindset."
+            data-sw="Huduma sita maalum ambapo BOBTechWaves inajitokeza - zimejengwa kwa uzoefu wa kina, mazingira halisi ya Tanzania, na mtazamo wa ubora kwanza.">
             Six specialised services where BOBTechWaves stands out.
           </p>
         </div>
@@ -431,91 +466,105 @@
 
           <article class="btw-unique" data-num="01" data-aos="fade-up">
             <div class="btw-unique__ico"><i class="bi bi-cpu-fill"></i></div>
-            <h3 data-en="Custom-Built, Not Templated"
-                data-sw="Imejengwa Maalum, Si Template">Custom-Built, Not Templated</h3>
-            <p data-en="Every system is engineered around your team's actual workflow — no forced templates, no generic clones, no compromises on what your business really needs."
-               data-sw="Kila mfumo unajengwa kulingana na utendaji halisi wa timu yako — bila template za kulazimishwa, bila nakala za kawaida.">
+            <h3 data-en="Custom-Built, Not Templated" data-sw="Imejengwa Maalum, Si Template">Custom-Built, Not
+              Templated</h3>
+            <p data-en="Every system is engineered around your team's actual workflow - no forced templates, no generic clones, no compromises on what your business really needs."
+              data-sw="Kila mfumo unajengwa kulingana na utendaji halisi wa timu yako - bila template za kulazimishwa, bila nakala za kawaida.">
               Every system is engineered around your team's actual workflow.
             </p>
             <ul class="btw-unique__list">
-              <li><i class="bi bi-check2"></i><span data-en="Workflow-first design" data-sw="Muundo wa utendaji kwanza">Workflow-first design</span></li>
-              <li><i class="bi bi-check2"></i><span data-en="Tailored data models" data-sw="Mfumo wa data maalum">Tailored data models</span></li>
-              <li><i class="bi bi-check2"></i><span data-en="Built around your team" data-sw="Imejengwa kwa timu yako">Built around your team</span></li>
+              <li><i class="bi bi-check2"></i><span data-en="Workflow-first design"
+                  data-sw="Muundo wa utendaji kwanza">Workflow-first design</span></li>
+              <li><i class="bi bi-check2"></i><span data-en="Tailored data models"
+                  data-sw="Mfumo wa data maalum">Tailored data models</span></li>
+              <li><i class="bi bi-check2"></i><span data-en="Built around your team"
+                  data-sw="Imejengwa kwa timu yako">Built around your team</span></li>
             </ul>
           </article>
 
           <article class="btw-unique" data-num="02" data-aos="fade-up" data-aos-delay="80">
             <div class="btw-unique__ico"><i class="bi bi-translate"></i></div>
-            <h3 data-en="Bilingual by Design"
-                data-sw="Lugha Mbili kwa Asili">Bilingual by Design</h3>
-            <p data-en="Swahili and English baked in from day one — interfaces, reports, support, training. The way real Tanzanian teams actually work."
-               data-sw="Kiswahili na Kiingereza vimejumuishwa tangu siku ya kwanza — interface, ripoti, msaada, mafunzo. Jinsi timu halisi za Tanzania zinavyofanya kazi.">
+            <h3 data-en="Bilingual by Design" data-sw="Lugha Mbili kwa Asili">Bilingual by Design</h3>
+            <p data-en="Swahili and English baked in from day one - interfaces, reports, support, training. The way real Tanzanian teams actually work."
+              data-sw="Kiswahili na Kiingereza vimejumuishwa tangu siku ya kwanza - interface, ripoti, msaada, mafunzo. Jinsi timu halisi za Tanzania zinavyofanya kazi.">
               Swahili and English baked in from day one across the whole system.
             </p>
             <ul class="btw-unique__list">
-              <li><i class="bi bi-check2"></i><span data-en="Native Swahili UI" data-sw="UI ya Kiswahili">Native Swahili UI</span></li>
-              <li><i class="bi bi-check2"></i><span data-en="Bilingual reports" data-sw="Ripoti za lugha mbili">Bilingual reports</span></li>
-              <li><i class="bi bi-check2"></i><span data-en="Local training included" data-sw="Mafunzo ya ndani">Local training included</span></li>
+              <li><i class="bi bi-check2"></i><span data-en="Native Swahili UI" data-sw="UI ya Kiswahili">Native Swahili
+                  UI</span></li>
+              <li><i class="bi bi-check2"></i><span data-en="Bilingual reports"
+                  data-sw="Ripoti za lugha mbili">Bilingual reports</span></li>
+              <li><i class="bi bi-check2"></i><span data-en="Local training included" data-sw="Mafunzo ya ndani">Local
+                  training included</span></li>
             </ul>
           </article>
 
           <article class="btw-unique" data-num="03" data-aos="fade-up" data-aos-delay="160">
             <div class="btw-unique__ico"><i class="bi bi-qr-code-scan"></i></div>
-            <h3 data-en="QR-Powered Everything"
-                data-sw="QR Kwenye Kila Kitu">QR-Powered Everything</h3>
-            <p data-en="From wedding invitations to event check-in, attendance, asset tagging, and quick payments — we make QR work properly in real-world Tanzanian conditions."
-               data-sw="Kutoka mialiko ya harusi hadi check-in ya matukio, mahudhurio, alama za mali, na malipo ya haraka — tunafanya QR kufanya kazi kweli kwenye mazingira ya Tanzania.">
-              From invitations to check-in to asset tagging — QR that actually works.
+            <h3 data-en="QR-Powered Everything" data-sw="QR Kwenye Kila Kitu">QR-Powered Everything</h3>
+            <p data-en="From wedding invitations to event check-in, attendance, asset tagging, and quick payments - we make QR work properly in real-world Tanzanian conditions."
+              data-sw="Kutoka mialiko ya harusi hadi check-in ya matukio, mahudhurio, alama za mali, na malipo ya haraka - tunafanya QR kufanya kazi kweli kwenye mazingira ya Tanzania.">
+              From invitations to check-in to asset tagging - QR that actually works.
             </p>
             <ul class="btw-unique__list">
-              <li><i class="bi bi-check2"></i><span data-en="Works offline" data-sw="Inafanya kazi bila intaneti">Works offline</span></li>
-              <li><i class="bi bi-check2"></i><span data-en="Phone-friendly scanning" data-sw="Inafaa kwenye simu">Phone-friendly scanning</span></li>
-              <li><i class="bi bi-check2"></i><span data-en="Brand-styled codes" data-sw="QR zenye chapa">Brand-styled codes</span></li>
+              <li><i class="bi bi-check2"></i><span data-en="Works offline" data-sw="Inafanya kazi bila intaneti">Works
+                  offline</span></li>
+              <li><i class="bi bi-check2"></i><span data-en="Phone-friendly scanning"
+                  data-sw="Inafaa kwenye simu">Phone-friendly scanning</span></li>
+              <li><i class="bi bi-check2"></i><span data-en="Brand-styled codes" data-sw="QR zenye chapa">Brand-styled
+                  codes</span></li>
             </ul>
           </article>
 
           <article class="btw-unique" data-num="04" data-aos="fade-up">
             <div class="btw-unique__ico"><i class="bi bi-shield-check"></i></div>
-            <h3 data-en="Real-World Security"
-                data-sw="Usalama wa Kweli">Real-World Security</h3>
-            <p data-en="Encryption, role-based access, audit trails, and automated backups — security is engineered in from the start, not bolted on later."
-               data-sw="Encryption, ruhusa za majukumu, ufuatiliaji, na backups za otomatiki — usalama umejengwa tangu mwanzo, si nyongeza.">
+            <h3 data-en="Real-World Security" data-sw="Usalama wa Kweli">Real-World Security</h3>
+            <p data-en="Encryption, role-based access, audit trails, and automated backups - security is engineered in from the start, not bolted on later."
+              data-sw="Encryption, ruhusa za majukumu, ufuatiliaji, na backups za otomatiki - usalama umejengwa tangu mwanzo, si nyongeza.">
               Encryption, role-based access, audit trails, automated backups.
             </p>
             <ul class="btw-unique__list">
-              <li><i class="bi bi-check2"></i><span data-en="Encrypted data at rest" data-sw="Data imeyofungwa">Encrypted data at rest</span></li>
-              <li><i class="bi bi-check2"></i><span data-en="Role-based permissions" data-sw="Ruhusa za majukumu">Role-based permissions</span></li>
-              <li><i class="bi bi-check2"></i><span data-en="Daily automated backups" data-sw="Backups za kila siku">Daily automated backups</span></li>
+              <li><i class="bi bi-check2"></i><span data-en="Encrypted data at rest"
+                  data-sw="Data imeyofungwa">Encrypted data at rest</span></li>
+              <li><i class="bi bi-check2"></i><span data-en="Role-based permissions"
+                  data-sw="Ruhusa za majukumu">Role-based permissions</span></li>
+              <li><i class="bi bi-check2"></i><span data-en="Daily automated backups"
+                  data-sw="Backups za kila siku">Daily automated backups</span></li>
             </ul>
           </article>
 
           <article class="btw-unique" data-num="05" data-aos="fade-up" data-aos-delay="80">
             <div class="btw-unique__ico"><i class="bi bi-broadcast-pin"></i></div>
-            <h3 data-en="SMS + WhatsApp + Email"
-                data-sw="SMS + WhatsApp + Barua Pepe">SMS + WhatsApp + Email</h3>
-            <p data-en="One platform reaches your audience through every channel they actually use — Tanzanian-network optimised and built for real delivery rates."
-               data-sw="Jukwaa moja linafikia wateja kupitia kila njia wanayotumia kweli — imeboreshwa kwa mitandao ya Tanzania.">
+            <h3 data-en="SMS + WhatsApp + Email" data-sw="SMS + WhatsApp + Barua Pepe">SMS + WhatsApp + Email</h3>
+            <p data-en="One platform reaches your audience through every channel they actually use - Tanzanian-network optimised and built for real delivery rates."
+              data-sw="Jukwaa moja linafikia wateja kupitia kila njia wanayotumia kweli - imeboreshwa kwa mitandao ya Tanzania.">
               Reach your audience through every channel they actually use.
             </p>
             <ul class="btw-unique__list">
-              <li><i class="bi bi-check2"></i><span data-en="Local sender IDs" data-sw="Sender ID za ndani">Local sender IDs</span></li>
-              <li><i class="bi bi-check2"></i><span data-en="High delivery rates" data-sw="Ufikishaji wa juu">High delivery rates</span></li>
-              <li><i class="bi bi-check2"></i><span data-en="Unified dashboard" data-sw="Dashibodi moja">Unified dashboard</span></li>
+              <li><i class="bi bi-check2"></i><span data-en="Local sender IDs" data-sw="Sender ID za ndani">Local sender
+                  IDs</span></li>
+              <li><i class="bi bi-check2"></i><span data-en="High delivery rates" data-sw="Ufikishaji wa juu">High
+                  delivery rates</span></li>
+              <li><i class="bi bi-check2"></i><span data-en="Unified dashboard" data-sw="Dashibodi moja">Unified
+                  dashboard</span></li>
             </ul>
           </article>
 
           <article class="btw-unique" data-num="06" data-aos="fade-up" data-aos-delay="160">
             <div class="btw-unique__ico"><i class="bi bi-headset"></i></div>
-            <h3 data-en="Support That Actually Answers"
-                data-sw="Msaada Unaojibu Kweli">Support That Actually Answers</h3>
-            <p data-en="Phone, WhatsApp, email — our support team is local, fast, and reachable. We don't disappear after launch; we stick around as you grow."
-               data-sw="Simu, WhatsApp, barua pepe — timu yetu ya msaada iko karibu, ina haraka, na inapatikana. Hatuondoki baada ya uzinduzi.">
-              Phone, WhatsApp, email — our support team is local, fast, and reachable.
+            <h3 data-en="Support That Actually Answers" data-sw="Msaada Unaojibu Kweli">Support That Actually Answers
+            </h3>
+            <p data-en="Phone, WhatsApp, email - our support team is local, fast, and reachable. We don't disappear after launch; we stick around as you grow."
+              data-sw="Simu, WhatsApp, barua pepe - timu yetu ya msaada iko karibu, ina haraka, na inapatikana. Hatuondoki baada ya uzinduzi.">
+              Phone, WhatsApp, email - our support team is local, fast, and reachable.
             </p>
             <ul class="btw-unique__list">
-              <li><i class="bi bi-check2"></i><span data-en="Same-day response" data-sw="Majibu ya siku hiyo hiyo">Same-day response</span></li>
-              <li><i class="bi bi-check2"></i><span data-en="Direct line to engineers" data-sw="Mawasiliano ya moja kwa moja">Direct line to engineers</span></li>
-              <li><i class="bi bi-check2"></i><span data-en="Continuous improvements" data-sw="Maboresho endelevu">Continuous improvements</span></li>
+              <li><i class="bi bi-check2"></i><span data-en="Same-day response"
+                  data-sw="Majibu ya siku hiyo hiyo">Same-day response</span></li>
+              <li><i class="bi bi-check2"></i><span data-en="Direct line to engineers"
+                  data-sw="Mawasiliano ya moja kwa moja">Direct line to engineers</span></li>
+              <li><i class="bi bi-check2"></i><span data-en="Continuous improvements"
+                  data-sw="Maboresho endelevu">Continuous improvements</span></li>
             </ul>
           </article>
 
@@ -532,11 +581,11 @@
         <div class="btw-head" data-aos="fade-up">
           <span class="btw-head__pill" data-en="Our Products" data-sw="Bidhaa Zetu">Our Products</span>
           <h2 data-en="Real platforms used by real businesses every day"
-              data-sw="Majukwaa halisi yanayotumiwa na biashara halisi kila siku">
+            data-sw="Majukwaa halisi yanayotumiwa na biashara halisi kila siku">
             Real platforms used by real businesses every day
           </h2>
-          <p data-en="A selection of the systems we've designed and launched — across construction, events, hospitality, retail, faith, and community work."
-             data-sw="Baadhi ya mifumo tuliyojenga na kuzindua — kwenye ujenzi, matukio, hoteli, biashara, dini, na kazi za kijamii.">
+          <p data-en="A selection of the systems we've designed and launched - across construction, events, hospitality, retail, faith, and community work."
+            data-sw="Baadhi ya mifumo tuliyojenga na kuzindua - kwenye ujenzi, matukio, hoteli, biashara, dini, na kazi za kijamii.">
             A selection of the systems we've designed and launched.
           </p>
         </div>
@@ -550,24 +599,27 @@
             </div>
             <div class="btw-proj__body">
               <h3>BuildCost Portal</h3>
-              <p data-en="National construction costing platform connecting quantity surveyors, contractors, suppliers, and manufacturers with reliable material data."
-                 data-sw="Jukwaa la kitaifa la gharama za ujenzi linalokutanisha QS, wakandarasi, wasambazaji na watengenezaji.">
-                National construction costing platform.
+              <p data-en="A construction knowledge and costing platform that improves access to material information, supports accurate estimates, and helps construction professionals make better decisions."
+                data-sw="Jukwaa la maarifa na gharama za ujenzi linaloboresha upatikanaji wa taarifa za vifaa, kusaidia makadirio sahihi, na kusaidia wataalamu wa ujenzi kufanya maamuzi bora.">
+                A construction knowledge and costing platform that improves access to material information, supports
+                accurate estimates, and helps construction professionals make better decisions.
               </p>
               <span class="btw-proj__more" data-en="Visit site" data-sw="Tembelea tovuti">Visit site</span>
             </div>
           </a>
 
-          <a href="https://eventsportal.co.tz" target="_blank" rel="noopener" class="btw-proj" data-aos="fade-up" data-aos-delay="60">
+          <a href="https://eventsportal.co.tz" target="_blank" rel="noopener" class="btw-proj" data-aos="fade-up"
+            data-aos-delay="60">
             <div class="btw-proj__art">
               <span class="btw-proj__chip" data-en="Live" data-sw="Hai">Live</span>
               <img src="assets/img/portfolio/events.webp" alt="Events Portal" />
             </div>
             <div class="btw-proj__body">
               <h3>Events Portal</h3>
-              <p data-en="Promote events, manage panellists, and capture audience questions — public or private, paid or free, all in one place."
-                 data-sw="Tangaza matukio, simamia panelists, na kusanya maswali — ya umma au faragha.">
-                Promote events, manage panellists, capture audience questions.
+              <p data-en="An event management platform that simplifies event promotion, registrations, audience engagement, and communication while helping organisers deliver better event experiences."
+                data-sw="Jukwaa la usimamizi wa matukio linalorahisisha utangazaji wa matukio, usajili, ushirikishwaji wa washiriki na mawasiliano huku likiwasaidia waandaaji kutoa uzoefu bora wa matukio.">
+                An event management platform that simplifies event promotion, registrations, audience engagement, and
+                communication while helping organisers deliver better event experiences.
               </p>
               <span class="btw-proj__more" data-en="Visit site" data-sw="Tembelea tovuti">Visit site</span>
             </div>
@@ -579,25 +631,12 @@
               <img src="assets/img/portfolio/mwaliko.webp" alt="Digital Invitations" />
             </div>
             <div class="btw-proj__body">
-              <h3 data-en="MUALIKO Digital Invitations" data-sw="Mialiko ya Kidijitali ya MUALIKO">MUALIKO Digital Invitations</h3>
-              <p data-en="Branded digital invitation cards with QR check-in, smart distribution, and live RSVP tracking for weddings and events."
-                 data-sw="Kadi za mialiko za kisasa zenye QR check-in, usambazaji wa busara, na ufuatiliaji wa wageni.">
-                Branded digital invitation cards with QR check-in.
-              </p>
-              <span class="btw-proj__more" data-en="Request demo" data-sw="Omba demo">Request demo</span>
-            </div>
-          </a>
-
-          <a href="#contact" class="btw-proj" data-aos="fade-up">
-            <div class="btw-proj__art">
-              <span class="btw-proj__chip" data-en="Retail" data-sw="Biashara">Retail</span>
-              <img src="assets/img/portfolio/sales.webp" alt="POS System" />
-            </div>
-            <div class="btw-proj__body">
-              <h3 data-en="POS & Sales System" data-sw="Mfumo wa POS na Mauzo">POS &amp; Sales System</h3>
-              <p data-en="Quick sales capture, instant receipts, price control, and live performance dashboards built for retail teams."
-                 data-sw="Kurekodi mauzo kwa haraka, risiti papo hapo, udhibiti wa bei, na dashibodi za utendaji.">
-                Quick sales capture and live performance dashboards.
+              <h3 data-en="MUALIKO Digital Invitations" data-sw="Mialiko ya Kidijitali ya MUALIKO">MUALIKO Digital
+                Invitations</h3>
+              <p data-en="A digital invitation solution that simplifies guest invitation, QR check-in, RSVP tracking, and event communication for weddings, meetings, and special events."
+                data-sw="Suluhisho la mialiko ya kidijitali linalorahisisha kualika wageni, QR check-in, ufuatiliaji wa RSVP na mawasiliano kwa harusi, mikutano na matukio maalum.">
+                A digital invitation solution that simplifies guest invitation, QR check-in, RSVP tracking, and event
+                communication for weddings, meetings, and special events.
               </p>
               <span class="btw-proj__more" data-en="Request demo" data-sw="Omba demo">Request demo</span>
             </div>
@@ -610,9 +649,26 @@
             </div>
             <div class="btw-proj__body">
               <h3 data-en="Stock Management System" data-sw="Mfumo wa Usimamizi wa Stoo">Stock Management System</h3>
-              <p data-en="Control inventory with precision, track stock flow, spot shortages early, and generate accurate reports."
-                 data-sw="Dhibiti bidhaa kwa usahihi, fuatilia mzunguko wa stoo, na pata ripoti sahihi.">
-                Control inventory, track stock flow, spot shortages early.
+              <p data-en="A stock management solution designed around the needs of Kariakoo market businesses, helping traders track inventory, monitor stock levels, manage product movement, reduce shortages, and improve day-to-day operations."
+                data-sw="Mfumo wa usimamizi wa stoo uliobuniwa kulingana na mahitaji ya wafanyabiashara wa Soko la Kariakoo, ukiwasaidia kufuatilia bidhaa, kudhibiti kiwango cha stoo, kusimamia mzunguko wa bidhaa, kupunguza upungufu na kuboresha shughuli za kila siku.">
+                A stock management solution designed around the needs of Kariakoo market businesses, helping traders
+                manage inventory and improve daily operations.
+              </p>
+              <span class="btw-proj__more" data-en="Request demo" data-sw="Omba demo">Request demo</span>
+            </div>
+          </a>
+
+          <a href="#contact" class="btw-proj" data-aos="fade-up">
+            <div class="btw-proj__art">
+              <span class="btw-proj__chip" data-en="Retail" data-sw="Biashara">Retail</span>
+              <img src="assets/img/portfolio/sales.webp" alt="POS System" />
+            </div>
+            <div class="btw-proj__body">
+              <h3 data-en="POS & Sales System" data-sw="Mfumo wa POS na Mauzo">POS &amp; Sales System</h3>
+              <p data-en="A sales management solution that helps businesses process transactions, manage products, monitor performance, and generate reports for better business control and growth."
+                data-sw="Mfumo wa usimamizi wa mauzo unaosaidia biashara kufanya miamala, kusimamia bidhaa, kufuatilia utendaji na kutengeneza ripoti kwa udhibiti bora wa biashara na ukuaji wake.">
+                A sales management solution that helps businesses process transactions, manage products, monitor
+                performance, and generate reports for better business control and growth.
               </p>
               <span class="btw-proj__more" data-en="Request demo" data-sw="Omba demo">Request demo</span>
             </div>
@@ -625,9 +681,10 @@
             </div>
             <div class="btw-proj__body">
               <h3 data-en="Hotel Management System" data-sw="Mfumo wa Hoteli">Hotel Management System</h3>
-              <p data-en="Bookings, guest profiles, billing, and reporting — designed for boutique hotels and lodges across Tanzania."
-                 data-sw="Booking, wateja, malipo na ripoti — iliyojengwa kwa hoteli na lodges Tanzania.">
-                Bookings, guest profiles, billing, and reporting.
+              <p data-en="A hotel management solution that simplifies bookings, guest management, billing, and reporting while helping hotels deliver better customer experiences."
+                data-sw="Mfumo wa usimamizi wa hoteli unaorahisisha booking, usimamizi wa wageni, malipo na ripoti huku ukisaidia hoteli kutoa huduma bora kwa wateja.">
+                A hotel management solution that simplifies bookings, guest management, billing, and reporting while
+                helping hotels deliver better customer experiences.
               </p>
               <span class="btw-proj__more" data-en="Request demo" data-sw="Omba demo">Request demo</span>
             </div>
@@ -639,10 +696,12 @@
               <img src="assets/img/portfolio/nyumba.webp" alt="Property Management" />
             </div>
             <div class="btw-proj__body">
-              <h3 data-en="Property Management System" data-sw="Mfumo wa Usimamizi wa Nyumba">Property Management System</h3>
-              <p data-en="Manage tenants, rent, payments, and records with full transparency — built for owners and managing agents."
-                 data-sw="Simamia wapangaji, kodi, malipo, na kumbukumbu kwa uwazi.">
-                Manage tenants, rent, payments, and records.
+              <h3 data-en="Property Management System" data-sw="Mfumo wa Usimamizi wa Nyumba">Property Management System
+              </h3>
+              <p data-en="A property management solution that helps property owners and managers oversee tenants, rent collection, payments, and property records with greater efficiency and transparency."
+                data-sw="Mfumo wa usimamizi wa mali unaosaidia wamiliki na wasimamizi wa nyumba kusimamia wapangaji, ukusanyaji wa kodi, malipo na taarifa za mali kwa ufanisi na uwazi zaidi.">
+                A property management solution that helps property owners and managers oversee tenants, rent collection,
+                payments, and property records with greater efficiency and transparency.
               </p>
               <span class="btw-proj__more" data-en="Request demo" data-sw="Omba demo">Request demo</span>
             </div>
@@ -655,13 +714,37 @@
             </div>
             <div class="btw-proj__body">
               <h3 data-en="Tithes & Members System" data-sw="Mfumo wa Zaka na Waumini">Tithes &amp; Members System</h3>
-              <p data-en="Track tithes, pledges, offerings, and member records with transparency — also usable for census-style data."
-                 data-sw="Fuatilia zaka, ahadi, sadaka, na kumbukumbu za waumini kwa uwazi.">
-                Track tithes, pledges, offerings, and member records.
+              <p data-en="A church management solution that helps faith-based organisations manage members, contributions, attendance, and records while improving transparency, accountability, and reporting."
+                data-sw="Mfumo wa usimamizi wa taasisi za dini unaosaidia kusimamia waumini, michango, mahudhurio na kumbukumbu huku ukiboresha uwazi, uwajibikaji na ripoti mbalimbali.">
+                A church management solution that helps faith-based organisations manage members, contributions,
+                attendance, and records while improving transparency, accountability, and reporting.
               </p>
               <span class="btw-proj__more" data-en="Request demo" data-sw="Omba demo">Request demo</span>
             </div>
           </a>
+
+          <!-- <a href="#contact" class="btw-proj" data-aos="fade-up" data-aos-delay="60">
+            <div class="btw-proj__art">
+              <span class="btw-proj__chip" data-en="Retail Tech" data-sw="Biashara">Retail Tech</span>
+              <img src="assets/img/portfolio/grocery.webp" alt="Grocery Management System" />
+            </div>
+
+            <div class="btw-proj__body">
+              <h3 data-en="Grocery Management System" data-sw="Mfumo wa Usimamizi wa Grocery">
+                Grocery Management System
+              </h3>
+
+              <p data-en="A grocery management solution that helps retailers manage products, stock levels, purchases, sales, pricing, and customer transactions while improving efficiency, reducing losses, and supporting better business decisions."
+                data-sw="Mfumo wa usimamizi wa grocery unaosaidia wafanyabiashara kusimamia bidhaa, kiwango cha stoo, manunuzi, mauzo, bei na miamala ya wateja huku ukiboresha ufanisi, kupunguza upotevu na kusaidia maamuzi bora ya biashara.">
+                A grocery management solution that helps retailers manage products, inventory, sales, and customer
+                transactions while improving efficiency and reducing losses.
+              </p>
+
+              <span class="btw-proj__more" data-en="Request demo" data-sw="Omba demo">
+                Request demo
+              </span>
+            </div>
+          </a> -->
 
           <a href="#contact" class="btw-proj" data-aos="fade-up" data-aos-delay="120">
             <div class="btw-proj__art">
@@ -669,10 +752,12 @@
               <img src="assets/img/portfolio/monitoring.webp" alt="M&E System" />
             </div>
             <div class="btw-proj__body">
-              <h3 data-en="Monitoring & Evaluation System" data-sw="Mfumo wa Monitoring na Evaluation">Monitoring &amp; Evaluation System</h3>
-              <p data-en="Measure project progress, set goals, track delivery, and produce data-rich reports — built for NGOs and community projects."
-                 data-sw="Pima maendeleo, weka malengo, fuatilia utekelezaji, na andaa ripoti za takwimu.">
-                Measure project progress and produce data-rich reports.
+              <h3 data-en="Monitoring & Evaluation System" data-sw="Mfumo wa Monitoring na Evaluation">Monitoring &amp;
+                Evaluation System</h3>
+              <p data-en="A monitoring and evaluation solution that helps organisations track activities, measure progress, monitor outcomes, and generate reports for informed decision-making and project success."
+                data-sw="Mfumo wa ufuatiliaji na tathmini unaosaidia taasisi kufuatilia shughuli, kupima maendeleo, kufuatilia matokeo na kutengeneza ripoti zinazosaidia maamuzi sahihi na mafanikio ya miradi.">
+                A monitoring and evaluation solution that helps organisations track activities, measure progress,
+                monitor outcomes, and generate reports for informed decision-making and project success.
               </p>
               <span class="btw-proj__more" data-en="Request demo" data-sw="Omba demo">Request demo</span>
             </div>
@@ -683,22 +768,25 @@
     </section>
 
     <!-- =====================================================================
-         Process — Jinsi Tunavyofanya Kazi
+         Process - Jinsi Tunavyofanya Kazi
          ===================================================================== -->
     <section class="btw-section" id="flow">
       <div class="btw-wrap">
 
         <div class="btw-head" data-aos="fade-up">
-          <span class="btw-head__pill"
-                data-en="How We Work"
-                data-sw="Jinsi Tunavyofanya">How We Work</span>
-          <h2 data-en="Jinsi Tunavyofanya Kazi"
-              data-sw="Jinsi Tunavyofanya Kazi">
-            Jinsi Tunavyofanya Kazi
+          <span class="btw-head__pill" data-en="How We Work" data-sw="Jinsi Tunavyofanya">
+            How We Work
+          </span>
+
+          <h2 data-en="How We Turn Ideas Into Digital Solutions"
+            data-sw="Jinsi Tunavyobadilisha Mawazo Kuwa Suluhisho za Kidijitali">
+            How We Turn Ideas Into Digital Solutions
           </h2>
-          <p data-en="A clear, predictable journey from idea to live system. No surprises, no shifting goalposts — just steady delivery you can plan around."
-             data-sw="Safari iliyo wazi na ya uhakika kutoka wazo hadi mfumo ulio hai. Bila mshangao, bila mabadiliko ya ghafla — utekelezaji wa uhakika.">
-            A clear, predictable journey from idea to live system.
+
+          <p data-en="Our approach combines innovation, collaboration, and continuous improvement to deliver practical digital solutions that create real value. From discovery to deployment and beyond, we work closely with you every step of the way."
+            data-sw="Mbinu yetu inaunganisha ubunifu, ushirikiano na maboresho endelevu ili kutoa suluhisho za kidijitali zenye manufaa halisi. Kuanzia hatua ya uchambuzi hadi uzinduzi na zaidi, tunafanya kazi kwa karibu na wewe katika kila hatua.">
+            From idea to impact, we deliver digital solutions through collaboration, innovation, and continuous
+            improvement.
           </p>
         </div>
 
@@ -707,10 +795,10 @@
           <div class="btw-step" data-aos="fade-up">
             <div class="btw-step__num">01</div>
             <div class="btw-step__ico"><i class="bi bi-chat-left-text-fill"></i></div>
-            <h3 data-en="Consultation" data-sw="Ushauri">Consultation</h3>
-            <p data-en="We listen first. Free scoping call to understand your goals, users, constraints, and timeline."
-               data-sw="Tunasikiliza kwanza. Mazungumzo ya kwanza bila malipo kuelewa malengo, watumiaji na muda wako.">
-              We listen first. Free scoping call to understand your goals.
+            <h3 data-en="Discovery" data-sw="Uchambuzi wa Mahitaji">Discovery</h3>
+            <p data-en="We begin by understanding your goals, challenges, users, and opportunities to identify the best approach for your project."
+              data-sw="Tunaanza kwa kuelewa malengo, changamoto, watumiaji na fursa zilizopo ili kubaini njia bora ya utekelezaji wa mradi wako.">
+              Understanding your needs and project goals.
             </p>
           </div>
 
@@ -718,29 +806,29 @@
             <div class="btw-step__num">02</div>
             <div class="btw-step__ico"><i class="bi bi-clipboard-data-fill"></i></div>
             <h3 data-en="Planning" data-sw="Mipango">Planning</h3>
-            <p data-en="Clear scope document, milestones, deliverables, and a transparent timeline you can plan around."
-               data-sw="Hati ya wazi ya lengo, hatua, vipengele, na ratiba ya wazi unayoweza kupanga.">
-              Clear scope, milestones, and transparent timeline.
+            <p data-en="Requirements are organised, priorities are defined, and a clear roadmap is created to guide successful delivery."
+              data-sw="Mahitaji yanapangwa, vipaumbele vinawekwa na ramani ya utekelezaji inaandaliwa kwa mafanikio ya mradi.">
+              Turning ideas into a clear implementation roadmap.
             </p>
           </div>
 
           <div class="btw-step" data-aos="fade-up" data-aos-delay="160">
             <div class="btw-step__num">03</div>
             <div class="btw-step__ico"><i class="bi bi-palette-fill"></i></div>
-            <h3 data-en="Design" data-sw="Muundo">Design</h3>
-            <p data-en="Polished interface design and user flows you review and approve before any code is written."
-               data-sw="Muundo wa interface na mtiririko wa watumiaji utakaouangalia na kuukubali kabla ya code.">
-              Polished interface design you review before any code.
+            <h3 data-en="Design" data-sw="Ubunifu">Design</h3>
+            <p data-en="We create user-focused designs, workflows, and prototypes to ensure the solution is practical and easy to use."
+              data-sw="Tunatengeneza miundo, mtiririko wa kazi na prototype zinazolenga mtumiaji ili kuhakikisha suluhisho ni rahisi na lenye manufaa.">
+              Designing solutions that people can easily use.
             </p>
           </div>
 
           <div class="btw-step" data-aos="fade-up" data-aos-delay="240">
             <div class="btw-step__num">04</div>
             <div class="btw-step__ico"><i class="bi bi-code-slash"></i></div>
-            <h3 data-en="Development" data-sw="Ujenzi">Development</h3>
-            <p data-en="Clean code, weekly progress demos, and the chance to give feedback before each new feature lands."
-               data-sw="Code safi, maonyesho ya wiki ya maendeleo, na fursa ya kutoa maoni kabla ya kila kipengele kipya.">
-              Clean code with weekly progress demos.
+            <h3 data-en="Development & Implementation" data-sw="Utekelezaji">Development & Implementation</h3>
+            <p data-en="The solution is built in manageable phases with regular reviews, feedback, and continuous improvements throughout the process."
+              data-sw="Suluhisho hutengenezwa kwa hatua zinazoweza kudhibitiwa huku kukiwa na ukaguzi wa mara kwa mara, maoni na maboresho endelevu.">
+              Building and improving solutions step by step.
             </p>
           </div>
         </div>
@@ -750,40 +838,40 @@
           <div class="btw-step" data-aos="fade-up">
             <div class="btw-step__num">05</div>
             <div class="btw-step__ico"><i class="bi bi-bug-fill"></i></div>
-            <h3 data-en="Testing" data-sw="Majaribio">Testing</h3>
-            <p data-en="Thorough QA on real devices, real networks, and real-world scenarios — including your own team's hands-on testing."
-               data-sw="Majaribio ya kina kwenye vifaa halisi, mitandao halisi, na hali halisi — pamoja na majaribio ya timu yako.">
-              Thorough QA on real devices and real-world scenarios.
+            <h3 data-en="Testing & Validation" data-sw="Majaribio na Uhakiki">Testing & Validation</h3>
+            <p data-en="We test functionality, performance, security, and usability to ensure the solution meets expectations and requirements."
+              data-sw="Tunapima utendaji, usalama, matumizi na ubora ili kuhakikisha suluhisho linakidhi mahitaji yaliyokusudiwa.">
+              Ensuring quality, reliability, and readiness.
             </p>
           </div>
 
           <div class="btw-step" data-aos="fade-up" data-aos-delay="80">
             <div class="btw-step__num">06</div>
             <div class="btw-step__ico"><i class="bi bi-rocket-takeoff-fill"></i></div>
-            <h3 data-en="Launch" data-sw="Uzinduzi">Launch</h3>
-            <p data-en="Smooth go-live with documentation, training for your team, and a steady hand on the controls as your users come on board."
-               data-sw="Uzinduzi mzuri na nyaraka, mafunzo kwa timu yako, na mkono thabiti wakati watumiaji wanapojiunga.">
-              Smooth go-live with documentation and team training.
+            <h3 data-en="Deployment & Training" data-sw="Uzinduzi na Mafunzo">Deployment & Training</h3>
+            <p data-en="The solution is launched, users are onboarded, and training is provided to support successful adoption."
+              data-sw="Suluhisho huzinduliwa, watumiaji huingizwa kwenye mfumo na mafunzo hutolewa ili kuhakikisha matumizi bora.">
+              Smooth launch with user onboarding and training.
             </p>
           </div>
 
           <div class="btw-step" data-aos="fade-up" data-aos-delay="160">
             <div class="btw-step__num">07</div>
             <div class="btw-step__ico"><i class="bi bi-headset"></i></div>
-            <h3 data-en="Support" data-sw="Msaada">Support</h3>
-            <p data-en="We don't disappear. Ongoing maintenance, bug fixes, feature improvements, and a direct line to the team that built it."
-               data-sw="Hatuondoki. Matengenezo endelevu, kurekebisha makosa, kuboresha vipengele, na mawasiliano ya moja kwa moja.">
-              Ongoing maintenance and direct line to the team that built it.
+            <h3 data-en="Support & Optimisation" data-sw="Msaada na Maboresho">Support & Optimisation</h3>
+            <p data-en="We provide ongoing support, monitor performance, resolve issues, and implement improvements as needs evolve."
+              data-sw="Tunatoa msaada endelevu, kufuatilia utendaji, kutatua changamoto na kufanya maboresho kadri mahitaji yanavyobadilika.">
+              Continuous support and improvement after launch.
             </p>
           </div>
 
           <div class="btw-step" data-aos="fade-up" data-aos-delay="240">
             <div class="btw-step__num">∞</div>
             <div class="btw-step__ico"><i class="bi bi-graph-up-arrow"></i></div>
-            <h3 data-en="Growth" data-sw="Kukua">Growth</h3>
-            <p data-en="As your business grows, your system grows with it — new features, new integrations, new possibilities."
-               data-sw="Biashara yako inapokua, mfumo wako unakua nayo — vipengele vipya, ujumuishaji mpya, uwezekano mpya.">
-              As your business grows, your system grows with it.
+            <h3 data-en="Growth & Innovation" data-sw="Ukuaji na Ubunifu">Growth & Innovation</h3>
+            <p data-en="As your organisation grows, we help expand your digital capabilities through new features, integrations, and innovative solutions."
+              data-sw="Kadri taasisi yako inavyokua, tunasaidia kuongeza uwezo wa kidijitali kupitia vipengele vipya, ujumuishaji na ubunifu mpya.">
+              Growing your digital capabilities for the future.
             </p>
           </div>
         </div>
@@ -799,12 +887,11 @@
 
         <div class="btw-head" data-aos="fade-up">
           <span class="btw-head__pill" data-en="Trusted By" data-sw="Wanaotuamini">Trusted By</span>
-          <h2 data-en="Customers we've worked with"
-              data-sw="Wateja tuliofanya nao kazi">
+          <h2 data-en="Customers we've worked with" data-sw="Wateja tuliofanya nao kazi">
             Customers we've worked with
           </h2>
           <p data-en="A handful of the businesses, institutions, and brands that have trusted BOBTechWaves with their digital work."
-             data-sw="Baadhi ya biashara, taasisi na chapa zilizoamini BOBTechWaves na kazi zao za kidijitali.">
+            data-sw="Baadhi ya biashara, taasisi na chapa zilizoamini BOBTechWaves na kazi zao za kidijitali.">
             A handful of the businesses and institutions we've worked with.
           </p>
         </div>
@@ -814,48 +901,66 @@
       <div class="btw-marquee" aria-label="Customer logos">
         <div class="btw-marquee__track">
           <!-- First copy -->
-          <div class="btw-marquee__item"><img src="assets/img/customers/sph.webp" alt="SPH" /></div>
-          <div class="btw-marquee__item"><img src="assets/img/customers/thv.webp" alt="THV" /></div>
-          <div class="btw-marquee__item"><img src="assets/img/customers/mauya.webp" alt="Mauya" /></div>
-          <div class="btw-marquee__item"><img src="assets/img/customers/mkomilo.webp" alt="Mkomilo" /></div>
-          <div class="btw-marquee__item"><img src="assets/img/customers/4g.webp" alt="4G" /></div>
+          <div class="btw-marquee__item"><img src="assets/img/customers/saron.webp" alt="Saron" /></div>
           <div class="btw-marquee__item"><img src="assets/img/customers/AM.webp" alt="AM" /></div>
           <div class="btw-marquee__item"><img src="assets/img/customers/5G.webp" alt="5G" /></div>
-          <div class="btw-marquee__item"><img src="assets/img/customers/nuru.webp" alt="Nuru" /></div>
           <div class="btw-marquee__item"><img src="assets/img/customers/gn-beauty.webp" alt="GN Beauty" /></div>
+          <div class="btw-marquee__item"><img src="assets/img/customers/nuru.webp" alt="Nuru" /></div>
+          <div class="btw-marquee__item"><img src="assets/img/customers/maris.webp" alt="Maris" /></div>
+          <div class="btw-marquee__item"><img src="assets/img/customers/thv.webp" alt="THV" /></div>
+          <div class="btw-marquee__item"><img src="assets/img/customers/sph.webp" alt="SPH" /></div>
+          <div class="btw-marquee__item"><img src="assets/img/customers/mkomilo.webp" alt="Mkomilo" /></div>
+          <div class="btw-marquee__item"><img src="assets/img/customers/eccah.webp" alt="Eccah" /></div>
+          <div class="btw-marquee__item"><img src="assets/img/customers/mauya.webp" alt="Mauya" /></div>
+          <div class="btw-marquee__item"><img src="assets/img/customers/inspired-partners.webp"
+              alt="Inspired Partners" /></div>
           <div class="btw-marquee__item"><img src="assets/img/customers/boq.webp" alt="BOQ Portal" /></div>
-          <div class="btw-marquee__item"><img src="assets/img/customers/inspired-partners.webp" alt="Inspired Partners" /></div>
+          <div class="btw-marquee__item"><img src="assets/img/customers/sabrem.webp" alt="Sabrem" /></div>
+          <div class="btw-marquee__item"><img src="assets/img/customers/nyinda.webp" alt="Nyinda" /></div>
+          <div class="btw-marquee__item"><img src="assets/img/customers/eventsportal.webp" alt="EventsPortal" /></div>
+          <div class="btw-marquee__item"><img src="assets/img/customers/boq.webp" alt="BOQ Portal" /></div>
           <!-- Duplicate copy for seamless loop -->
-          <div class="btw-marquee__item" aria-hidden="true"><img src="assets/img/customers/sph.webp" alt="" /></div>
-          <div class="btw-marquee__item" aria-hidden="true"><img src="assets/img/customers/thv.webp" alt="" /></div>
-          <div class="btw-marquee__item" aria-hidden="true"><img src="assets/img/customers/mauya.webp" alt="" /></div>
-          <div class="btw-marquee__item" aria-hidden="true"><img src="assets/img/customers/mkomilo.webp" alt="" /></div>
-          <div class="btw-marquee__item" aria-hidden="true"><img src="assets/img/customers/4g.webp" alt="" /></div>
-          <div class="btw-marquee__item" aria-hidden="true"><img src="assets/img/customers/AM.webp" alt="" /></div>
-          <div class="btw-marquee__item" aria-hidden="true"><img src="assets/img/customers/5G.webp" alt="" /></div>
-          <div class="btw-marquee__item" aria-hidden="true"><img src="assets/img/customers/nuru.webp" alt="" /></div>
-          <div class="btw-marquee__item" aria-hidden="true"><img src="assets/img/customers/gn-beauty.webp" alt="" /></div>
-          <div class="btw-marquee__item" aria-hidden="true"><img src="assets/img/customers/boq.webp" alt="" /></div>
-          <div class="btw-marquee__item" aria-hidden="true"><img src="assets/img/customers/inspired-partners.webp" alt="" /></div>
+          <div class="btw-marquee__item"><img src="assets/img/customers/saron.webp" alt="Saron" /></div>
+          <div class="btw-marquee__item"><img src="assets/img/customers/AM.webp" alt="AM" /></div>
+          <div class="btw-marquee__item"><img src="assets/img/customers/5G.webp" alt="5G" /></div>
+          <div class="btw-marquee__item"><img src="assets/img/customers/gn-beauty.webp" alt="GN Beauty" /></div>
+          <div class="btw-marquee__item"><img src="assets/img/customers/nuru.webp" alt="Nuru" /></div>
+          <div class="btw-marquee__item"><img src="assets/img/customers/maris.webp" alt="Maris" /></div>
+          <div class="btw-marquee__item"><img src="assets/img/customers/thv.webp" alt="THV" /></div>
+          <div class="btw-marquee__item"><img src="assets/img/customers/sph.webp" alt="SPH" /></div>
+          <div class="btw-marquee__item"><img src="assets/img/customers/mkomilo.webp" alt="Mkomilo" /></div>
+          <div class="btw-marquee__item"><img src="assets/img/customers/eccah.webp" alt="Eccah" /></div>
+          <div class="btw-marquee__item"><img src="assets/img/customers/mauya.webp" alt="Mauya" /></div>
+          <div class="btw-marquee__item"><img src="assets/img/customers/inspired-partners.webp"
+              alt="Inspired Partners" /></div>
+          <div class="btw-marquee__item"><img src="assets/img/customers/boq.webp" alt="BOQ Portal" /></div>
+          <div class="btw-marquee__item"><img src="assets/img/customers/sabrem.webp" alt="Sabrem" /></div>
+          <div class="btw-marquee__item"><img src="assets/img/customers/nyinda.webp" alt="Nyinda" /></div>
+          <div class="btw-marquee__item"><img src="assets/img/customers/eventsportal.webp" alt="EventsPortal" /></div>
+          <div class="btw-marquee__item"><img src="assets/img/customers/boq.webp" alt="BOQ Portal" /></div>
         </div>
       </div>
     </section>
 
     <!-- =====================================================================
-         Why Us
-         ===================================================================== -->
+     Why Us
+     ===================================================================== -->
     <section class="btw-section" id="why">
       <div class="btw-wrap">
 
         <div class="btw-head" data-aos="fade-up">
-          <span class="btw-head__pill" data-en="Why BOBTechWaves" data-sw="Kwa Nini BOBTechWaves">Why BOBTechWaves</span>
-          <h2 data-en="Designed for the way real teams work in Tanzania"
-              data-sw="Imeundwa kulingana na jinsi timu halisi zinavyofanya kazi Tanzania">
-            Designed for the way real teams work in Tanzania
+          <span class="btw-head__pill" data-en="Why BOBTechWaves" data-sw="Kwa Nini BOBTechWaves">
+            Why BOBTechWaves
+          </span>
+
+          <h2 data-en="Digital solutions built around real needs"
+            data-sw="Suluhisho za kidijitali zinazojengwa kulingana na mahitaji halisi">
+            Digital solutions built around real needs
           </h2>
-          <p data-en="Practical features, honest engineering, and the support of a team that actually picks up the phone."
-             data-sw="Vipengele halisi, uhandisi wa kweli, na msaada wa timu inayokupokea simu kweli.">
-            Practical features, honest engineering, real support.
+
+          <p data-en="We combine innovation, technical skills, local understanding, and reliable support to deliver digital solutions that are practical, useful, and easy to adopt."
+            data-sw="Tunaunganisha ubunifu, utaalamu wa teknolojia, uelewa wa mazingira halisi, na msaada wa uhakika ili kutoa suluhisho za kidijitali zenye manufaa na rahisi kutumia.">
+            Practical innovation, reliable technology, and real support.
           </p>
         </div>
 
@@ -863,55 +968,67 @@
 
           <article class="btw-reason" data-aos="fade-up">
             <div class="btw-reason__ico"><i class="bi bi-fingerprint"></i></div>
-            <h3 data-en="Custom-Built Systems" data-sw="Mifumo Maalum">Custom-Built Systems</h3>
-            <p data-en="Every solution is shaped around how your team actually works — not a template forced to fit your business."
-               data-sw="Kila suluhisho linatengenezwa kulingana na jinsi timu yako inavyofanya kazi.">
-              Every solution shaped around your team — not a forced template.
+            <h3 data-en="Built Around Your Needs" data-sw="Hujengwa Kulingana na Mahitaji Yako">
+              Built Around Your Needs
+            </h3>
+            <p data-en="We design solutions based on your goals, users, workflow, and challenges, ensuring the final product fits your real operations instead of forcing you into a generic template."
+              data-sw="Tunatengeneza suluhisho kulingana na malengo, watumiaji, mtiririko wa kazi na changamoto zako, kuhakikisha bidhaa ya mwisho inaendana na shughuli zako halisi badala ya kutumia template za jumla.">
+              Solutions shaped around your goals, users, workflow, and real operations.
             </p>
           </article>
 
           <article class="btw-reason btw-reason--accent" data-aos="fade-up" data-aos-delay="60">
-            <div class="btw-reason__ico"><i class="bi bi-speedometer2"></i></div>
-            <h3 data-en="Faster Delivery" data-sw="Utekelezaji wa Haraka">Faster Delivery</h3>
-            <p data-en="We move from clear scope to working software faster than most agencies — without sacrificing quality."
-               data-sw="Tunatoka kwenye lengo wazi hadi mfumo unaofanya kazi haraka — bila kupoteza ubora.">
-              Clear scope to working software faster than most agencies.
+            <div class="btw-reason__ico"><i class="bi bi-lightbulb-fill"></i></div>
+            <h3 data-en="Innovation That Solves Problems" data-sw="Ubunifu Unaotatua Changamoto">
+              Innovation That Solves Problems
+            </h3>
+            <p data-en="We use technology, automation, and creative thinking to simplify activities, improve communication, reduce manual work, and create practical solutions that deliver measurable results."
+              data-sw="Tunatumia teknolojia, otomatiki na ubunifu kurahisisha shughuli, kuboresha mawasiliano, kupunguza kazi za mikono na kuunda suluhisho halisi zinazotoa matokeo yanayoonekana.">
+              Technology and innovation that simplify work, improve efficiency, and create real value.
             </p>
           </article>
 
           <article class="btw-reason" data-aos="fade-up" data-aos-delay="120">
             <div class="btw-reason__ico"><i class="bi bi-shield-lock-fill"></i></div>
-            <h3 data-en="Solid Security" data-sw="Usalama Madhubuti">Solid Security</h3>
-            <p data-en="Encryption, role-based access, audit logs, and backups — data protection is built in, not bolted on later."
-               data-sw="Encryption, ruhusa za majukumu, audit logs, na backups — usalama umejengwa ndani.">
-              Encryption, role-based access, audit logs, and backups.
+            <h3 data-en="Secure & Reliable" data-sw="Salama na Imara">
+              Secure & Reliable
+            </h3>
+            <p data-en="We build solutions with data protection, user roles, backups, system stability, and reliable performance to keep your operations safe and running smoothly."
+              data-sw="Tunajenga suluhisho kwa kuzingatia usalama wa taarifa, ruhusa za watumiaji, backup, uthabiti wa mfumo na utendaji wa kuaminika ili shughuli zako ziendelee salama na kwa ufanisi.">
+              Secure and reliable solutions built to protect your data and keep operations running smoothly.
             </p>
           </article>
 
           <article class="btw-reason btw-reason--accent" data-aos="fade-up">
             <div class="btw-reason__ico"><i class="bi bi-headset"></i></div>
-            <h3 data-en="Real Post-Launch Support" data-sw="Msaada wa Kweli Baada ya Uzinduzi">Real Post-Launch Support</h3>
-            <p data-en="We don't disappear after launch. Our support team stays available to help, fix, and improve as you grow."
-               data-sw="Hatuondoki baada ya uzinduzi. Timu yetu inabaki ipo kusaidia.">
-              We don't disappear. Our support team stays available as you grow.
+            <h3 data-en="Support Beyond Launch" data-sw="Msaada Baada ya Uzinduzi">
+              Support Beyond Launch
+            </h3>
+            <p data-en="We stay available after deployment to provide technical support, improvements, guidance, and updates as your users, needs, and operations continue to grow."
+              data-sw="Tunaendelea kupatikana baada ya uzinduzi kutoa msaada wa kiufundi, maboresho, ushauri na masasisho kadri watumiaji, mahitaji na shughuli zako zinavyoendelea kukua.">
+              We support, improve, and guide your solution as your needs continue to grow.
             </p>
           </article>
 
           <article class="btw-reason" data-aos="fade-up" data-aos-delay="60">
             <div class="btw-reason__ico"><i class="bi bi-translate"></i></div>
-            <h3 data-en="Your Language, Your Context" data-sw="Lugha Yako, Mazingira Yako">Your Language, Your Context</h3>
-            <p data-en="English and Swahili. Less jargon, more clarity. Designed with everyday Tanzanian users in mind."
-               data-sw="Kiingereza na Kiswahili. Maneno machache ya kiufundi, ufafanuzi zaidi.">
-              English and Swahili. Less jargon, more clarity.
+            <h3 data-en="Local Context" data-sw="Mazingira Halisi">
+              Local Context
+            </h3>
+            <p data-en="Our solutions are designed with local users, real working environments, and practical challenges in mind, ensuring they are easy to adopt, relevant, and effective."
+              data-sw="Suluhisho zetu huzingatia watumiaji wa ndani, mazingira halisi ya kazi na changamoto za kila siku, kuhakikisha ni rahisi kutumia, zinafaa na zina matokeo halisi.">
+              Designed around local needs, real users, and practical day-to-day challenges.
             </p>
           </article>
 
           <article class="btw-reason" data-aos="fade-up" data-aos-delay="120">
             <div class="btw-reason__ico"><i class="bi bi-piggy-bank-fill"></i></div>
-            <h3 data-en="Honest, Realistic Pricing" data-sw="Bei Halisi na za Wazi">Honest, Realistic Pricing</h3>
-            <p data-en="Pricing that matches the value delivered — no hidden fees, no inflated estimates, no surprises mid-project."
-               data-sw="Bei inayolingana na thamani — bila gharama zilizofichwa, bila mshangao.">
-              Pricing that matches value — no hidden fees, no surprises.
+            <h3 data-en="Clear & Honest Delivery" data-sw="Utekelezaji wa Wazi na Uaminifu">
+              Clear & Honest Delivery
+            </h3>
+            <p data-en="We deliver projects with clear scope, realistic timelines, transparent pricing, and regular communication, helping you understand every step from start to completion."
+              data-sw="Tunatekeleza miradi kwa malengo yaliyo wazi, muda halisi, bei iliyo wazi na mawasiliano ya mara kwa mara, ili uelewe kila hatua kuanzia mwanzo hadi mwisho.">
+              Clear scope, realistic timelines, transparent pricing, and regular communication from start to completion.
             </p>
           </article>
 
@@ -920,16 +1037,19 @@
     </section>
 
     <!-- =====================================================================
-         Impact (stats)
-         ===================================================================== -->
+     Impact (stats)
+     ===================================================================== -->
     <section class="btw-section btw-section--tinted">
       <div class="btw-wrap">
 
         <div class="btw-head" data-aos="fade-up">
-          <span class="btw-head__pill" data-en="Our Impact" data-sw="Athari Yetu">Our Impact</span>
-          <h2 data-en="Numbers that show we ship, not just promise"
-              data-sw="Takwimu zinazoonyesha tunafikisha kazi, si ahadi tu">
-            Numbers that show we ship, not just promise
+          <span class="btw-head__pill" data-en="Our Impact" data-sw="Athari Yetu">
+            Our Impact
+          </span>
+
+          <h2 data-en="Growing through innovation, delivery, and real client value"
+            data-sw="Tunakua kupitia ubunifu, utekelezaji na thamani halisi kwa wateja">
+            Growing through innovation, delivery, and real client value
           </h2>
         </div>
 
@@ -937,42 +1057,57 @@
           <div class="btw-impact__cell" data-aos="fade-up">
             <div class="btw-impact__ico"><i class="bi bi-rocket-takeoff-fill"></i></div>
             <div class="btw-impact__num">10<span>+</span></div>
-            <h4 class="btw-impact__lbl" data-en="Products Shipped" data-sw="Bidhaa Zilizojengwa">Products Shipped</h4>
+            <h4 class="btw-impact__lbl" data-en="Digital Products Built" data-sw="Bidhaa za Kidijitali Zilizojengwa">
+              Digital Products Built
+            </h4>
           </div>
+
           <div class="btw-impact__cell btw-impact__cell--featured" data-aos="fade-up" data-aos-delay="60">
             <div class="btw-impact__ico"><i class="bi bi-people-fill"></i></div>
-            <div class="btw-impact__num">50<span>+</span></div>
-            <h4 class="btw-impact__lbl" data-en="Satisfied Clients" data-sw="Wateja Wenye Furaha">Satisfied Clients</h4>
+            <div class="btw-impact__num">20<span>+</span></div>
+            <h4 class="btw-impact__lbl" data-en="Clients & Users Served" data-sw="Wateja na Watumiaji Waliohudumiwa">
+              Clients & Users Served
+            </h4>
           </div>
+
           <div class="btw-impact__cell" data-aos="fade-up" data-aos-delay="120">
             <div class="btw-impact__ico"><i class="bi bi-calendar-check-fill"></i></div>
-            <div class="btw-impact__num">4<span>+</span></div>
-            <h4 class="btw-impact__lbl" data-en="Years in Production" data-sw="Miaka Tukifanya Kazi">Years in Production</h4>
+            <div class="btw-impact__num">2<span>+</span></div>
+            <h4 class="btw-impact__lbl" data-en="Years of Digital Delivery" data-sw="Miaka ya Utekelezaji Kidijitali">
+              Years of Digital Delivery
+            </h4>
           </div>
+
           <div class="btw-impact__cell" data-aos="fade-up" data-aos-delay="180">
-            <div class="btw-impact__ico"><i class="bi bi-globe-africa"></i></div>
+            <div class="btw-impact__ico"><i class="bi bi-globe"></i></div>
             <div class="btw-impact__num">2</div>
-            <h4 class="btw-impact__lbl" data-en="National-Scale Platforms" data-sw="Majukwaa ya Kitaifa">National-Scale Platforms</h4>
+            <h4 class="btw-impact__lbl" data-en="Flagship Innovation Platforms" data-sw="Majukwaa Makuu ya Ubunifu">
+              Flagship Innovation Platforms
+            </h4>
           </div>
         </div>
       </div>
     </section>
 
+
     <!-- =====================================================================
-         Team
-         ===================================================================== -->
+     Team
+     ===================================================================== -->
     <section class="btw-section" id="team">
       <div class="btw-wrap">
 
         <div class="btw-head" data-aos="fade-up">
-          <span class="btw-head__pill" data-en="Meet the Team" data-sw="Kutana na Timu">Meet the Team</span>
-          <h2 data-en="The people behind BOBTechWaves"
-              data-sw="Watu walio nyuma ya BOBTechWaves">
+          <span class="btw-head__pill" data-en="Meet the Team" data-sw="Kutana na Timu">
+            Meet the Team
+          </span>
+
+          <h2 data-en="The people behind BOBTechWaves" data-sw="Watu walio nyuma ya BOBTechWaves">
             The people behind BOBTechWaves
           </h2>
-          <p data-en="A focused team combining engineering, industry expertise, finance, customer support, and product leadership — hover over a card to see direct contact details."
-             data-sw="Timu yenye umakini inayochanganya uhandisi, utaalamu wa sekta, fedha, msaada wa wateja, na uongozi wa bidhaa — songa kwenye kadi kuona mawasiliano.">
-            A focused team combining engineering, industry expertise, finance, and customer support.
+
+          <p data-en="Meet the team driving innovation, technology, operations, and customer success at BOBTechWaves, supported by experienced advisors who provide strategic guidance and industry expertise."
+            data-sw="Kutana na timu inayoongoza ubunifu, teknolojia, shughuli za kila siku na mafanikio ya wateja ndani ya BOBTechWaves, ikisaidiwa na washauri wenye uzoefu wanaotoa mwelekeo wa kimkakati na utaalamu wa sekta mbalimbali.">
+            Meet the team driving innovation and growth at BOBTechWaves, supported by experienced industry advisors.
           </p>
         </div>
 
@@ -981,132 +1116,172 @@
           <!-- Joseph Mwacha -->
           <article class="btw-mate" data-aos="fade-up">
             <div class="btw-mate__photo">
-              <div class="btw-mate__placeholder">J</div>
-              <div class="btw-mate__overlay">
-                <div class="btw-mate__contacts">
-                  <a href="mailto:joseph@bobtechwaves.co.tz"><i class="bi bi-envelope-fill"></i>joseph@bobtechwaves.co.tz</a>
-                  <a href="tel:+255656345149"><i class="bi bi-telephone-fill"></i>+255 656 345 149</a>
-                </div>
-                <div class="btw-mate__socials">
-                  <a href="https://wa.me/255656345149" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
-                  <a href="https://www.linkedin.com/in/joseph-mwacha-173684227/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
-                  <a href="mailto:joseph@bobtechwaves.co.tz" aria-label="Email"><i class="bi bi-envelope-fill"></i></a>
-                </div>
+              <img src="assets/img/team/joseph.webp" alt="Joseph Mwacha">
+
+              <div class="btw-mate__socials">
+                <a href="tel:+255656345149" aria-label="Call Joseph"><i class="bi bi-telephone-fill"></i></a>
+                <a href="https://www.linkedin.com/in/joseph-mwacha-173684227/" target="_blank" rel="noopener"
+                  aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                <a href="https://wa.me/255656345149" target="_blank" rel="noopener" aria-label="WhatsApp"><i
+                    class="bi bi-whatsapp"></i></a>
+                <a href="mailto:joseph@bobtechwaves.co.tz" aria-label="Email Joseph"><i
+                    class="bi bi-envelope-fill"></i></a>
               </div>
             </div>
+
             <div class="btw-mate__info">
               <h3>Joseph Mwacha</h3>
-              <span data-en="Team Lead" data-sw="Kiongozi wa Timu">Team Lead</span>
+              <span data-en="Digital Innovation & Development Lead"
+                data-sw="Kiongozi wa Ubunifu wa Kidijitali na Uendelezaji">
+                Digital Innovation &amp; Development Lead
+              </span>
+              <p data-en="Leads the design and development of BOBTechWaves products, driving digital innovation, agile delivery, and smart data-driven construction workflows."
+                data-sw="Anaongoza usanifu na uendelezaji wa bidhaa za BOBTechWaves, akiendeleza ubunifu wa kidijitali, utekelezaji wa Agile, na mtiririko wa kazi za ujenzi unaoongozwa na data.">
+                Leads the design and development of BOBTechWaves products, driving digital innovation, agile delivery,
+                and smart data-driven construction workflows.
+              </p>
             </div>
           </article>
 
-          <!-- Didas Lello -->
+          <!-- Dr. Didas Lello -->
           <article class="btw-mate" data-aos="fade-up" data-aos-delay="60">
             <div class="btw-mate__photo">
-              <div class="btw-mate__placeholder">D</div>
-              <div class="btw-mate__overlay">
-                <div class="btw-mate__contacts">
-                  <a href="mailto:didas@bobtechwaves.co.tz"><i class="bi bi-envelope-fill"></i>didas@bobtechwaves.co.tz</a>
-                  <a href="tel:+255656345149"><i class="bi bi-telephone-fill"></i>+255 656 345 149</a>
-                </div>
-                <div class="btw-mate__socials">
-                  <a href="https://wa.me/255656345149" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
-                  <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
-                  <a href="mailto:didas@bobtechwaves.co.tz" aria-label="Email"><i class="bi bi-envelope-fill"></i></a>
-                </div>
+              <img src="assets/img/team/didas.webp" alt="Dr. Didas Lello">
+
+              <div class="btw-mate__socials">
+                <a href="tel:+255656345149" aria-label="Call Didas"><i class="bi bi-telephone-fill"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                <a href="https://wa.me/255656345149" target="_blank" rel="noopener" aria-label="WhatsApp"><i
+                    class="bi bi-whatsapp"></i></a>
+                <a href="mailto:didas@bobtechwaves.co.tz" aria-label="Email Didas"><i
+                    class="bi bi-envelope-fill"></i></a>
               </div>
             </div>
+
             <div class="btw-mate__info">
-              <h3>Didas Lello</h3>
-              <span data-en="Industrial Expert" data-sw="Mtaalamu wa Viwanda">Industrial Expert</span>
+              <h3>Dr. Didas Lello</h3>
+              <span data-en="Construction & Industry Advisor" data-sw="Mshauri wa Ujenzi na Sekta">
+                Construction &amp; Industry Advisor
+              </span>
+              <p data-en="Provides cost engineering and construction industry expertise for the BOQ Portal, ensuring the platform aligns with real-world project planning, costing, and execution needs."
+                data-sw="Hutoa utaalamu wa cost engineering na sekta ya ujenzi kwa BOQ Portal, akihakikisha jukwaa linalingana na mahitaji halisi ya upangaji, ukadiriaji gharama, na utekelezaji wa miradi.">
+                Provides cost engineering and construction industry expertise for the BOQ Portal, ensuring the platform
+                aligns with real-world project planning, costing, and execution needs.
+              </p>
             </div>
           </article>
 
           <!-- Furaha Kessy -->
-          <article class="btw-mate" data-aos="fade-up" data-aos-delay="120">
+          <article class="btw-mate" data-aos="fade-up">
             <div class="btw-mate__photo">
-              <div class="btw-mate__placeholder">F</div>
-              <div class="btw-mate__overlay">
-                <div class="btw-mate__contacts">
-                  <a href="mailto:furaha@bobtechwaves.co.tz"><i class="bi bi-envelope-fill"></i>furaha@bobtechwaves.co.tz</a>
-                  <a href="tel:+255656345149"><i class="bi bi-telephone-fill"></i>+255 656 345 149</a>
-                </div>
-                <div class="btw-mate__socials">
-                  <a href="https://wa.me/255656345149" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
-                  <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
-                  <a href="mailto:furaha@bobtechwaves.co.tz" aria-label="Email"><i class="bi bi-envelope-fill"></i></a>
-                </div>
+              <img src="assets/img/team/furaha.webp" alt="Furaha Kessy">
+
+              <div class="btw-mate__socials">
+                <a href="tel:+255656345149" aria-label="Call Furaha"><i class="bi bi-telephone-fill"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                <a href="https://wa.me/255656345149" target="_blank" rel="noopener" aria-label="WhatsApp"><i
+                    class="bi bi-whatsapp"></i></a>
+                <a href="mailto:furaha@bobtechwaves.co.tz" aria-label="Email Furaha"><i
+                    class="bi bi-envelope-fill"></i></a>
               </div>
             </div>
+
             <div class="btw-mate__info">
               <h3>Furaha Kessy</h3>
-              <span data-en="Finance Operations" data-sw="Uendeshaji wa Fedha">Finance Operations</span>
+              <span data-en="Finance Operations" data-sw="Uendeshaji wa Fedha">
+                Finance Operations
+              </span>
+              <p data-en="Supports financial planning, operations coordination, budgeting, and internal business processes to help BOBTechWaves projects run smoothly and sustainably."
+                data-sw="Anasaidia upangaji wa fedha, uratibu wa uendeshaji, bajeti, na michakato ya ndani ya biashara ili kusaidia miradi ya BOBTechWaves kuendeshwa kwa ufanisi na uendelevu.">
+                Supports financial planning, operations coordination, budgeting, and internal business processes to help
+                BOBTechWaves projects run smoothly and sustainably.
+              </p>
             </div>
           </article>
 
-          <!-- Madeline Adudo -->
-          <article class="btw-mate" data-aos="fade-up">
+
+          <!-- Magreth Adundo -->
+          <article class="btw-mate" data-aos="fade-up" data-aos-delay="120">
             <div class="btw-mate__photo">
-              <div class="btw-mate__placeholder">M</div>
-              <div class="btw-mate__overlay">
-                <div class="btw-mate__contacts">
-                  <a href="mailto:madeline@bobtechwaves.co.tz"><i class="bi bi-envelope-fill"></i>madeline@bobtechwaves.co.tz</a>
-                  <a href="tel:+255656345149"><i class="bi bi-telephone-fill"></i>+255 656 345 149</a>
-                </div>
-                <div class="btw-mate__socials">
-                  <a href="https://wa.me/255656345149" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
-                  <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
-                  <a href="mailto:madeline@bobtechwaves.co.tz" aria-label="Email"><i class="bi bi-envelope-fill"></i></a>
-                </div>
+              <img src="assets/img/team/magreth.webp" alt="Magreth Adundo">
+
+              <div class="btw-mate__socials">
+                <a href="tel:+255656345149" aria-label="Call Magreth"><i class="bi bi-telephone-fill"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                <a href="https://wa.me/255656345149" target="_blank" rel="noopener" aria-label="WhatsApp"><i
+                    class="bi bi-whatsapp"></i></a>
+                <a href="mailto:magreth@bobtechwaves.co.tz" aria-label="Email Magreth"><i
+                    class="bi bi-envelope-fill"></i></a>
               </div>
             </div>
+
             <div class="btw-mate__info">
-              <h3>Madeline Adudo</h3>
-              <span data-en="Customer Support" data-sw="Msaada wa Wateja">Customer Support</span>
+              <h3>Magreth Adundo</h3>
+              <span data-en="Systems & Platform Support" data-sw="Msaada wa Mifumo na Jukwaa">
+                Systems &amp; Platform Support
+              </span>
+              <p data-en="Oversees BOQ Portal stability, user access, data entry, and ongoing customer support, ensuring smooth platform operation and reliable user experience."
+                data-sw="Anasimamia uthabiti wa BOQ Portal, upatikanaji wa watumiaji, uingizaji wa data, na msaada endelevu kwa wateja ili kuhakikisha mfumo unafanya kazi vizuri na kwa uhakika.">
+                Oversees BOQ Portal stability, user access, data entry, and ongoing customer support, ensuring smooth
+                platform operation and reliable user experience.
+              </p>
             </div>
           </article>
+
 
           <!-- Esther Prosper -->
           <article class="btw-mate" data-aos="fade-up" data-aos-delay="60">
             <div class="btw-mate__photo">
-              <div class="btw-mate__placeholder">E</div>
-              <div class="btw-mate__overlay">
-                <div class="btw-mate__contacts">
-                  <a href="mailto:esther@bobtechwaves.co.tz"><i class="bi bi-envelope-fill"></i>esther@bobtechwaves.co.tz</a>
-                  <a href="tel:+255656345149"><i class="bi bi-telephone-fill"></i>+255 656 345 149</a>
-                </div>
-                <div class="btw-mate__socials">
-                  <a href="https://wa.me/255656345149" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
-                  <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
-                  <a href="mailto:esther@bobtechwaves.co.tz" aria-label="Email"><i class="bi bi-envelope-fill"></i></a>
-                </div>
+              <img src="assets/img/team/esther.webp" alt="Esther Prosper">
+
+              <div class="btw-mate__socials">
+                <a href="tel:+255656345149" aria-label="Call Esther"><i class="bi bi-telephone-fill"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                <a href="https://wa.me/255656345149" target="_blank" rel="noopener" aria-label="WhatsApp"><i
+                    class="bi bi-whatsapp"></i></a>
+                <a href="mailto:esther@bobtechwaves.co.tz" aria-label="Email Esther"><i
+                    class="bi bi-envelope-fill"></i></a>
               </div>
             </div>
+
             <div class="btw-mate__info">
               <h3>Esther Prosper</h3>
-              <span data-en="Lead · Digital Card Projects" data-sw="Kiongozi · Kadi za Kidijitali">Lead · Digital Card Projects</span>
+              <span data-en="Lead - Digital Card Projects" data-sw="Kiongozi - Miradi ya Kadi za Kidijitali">
+                Lead - Digital Card Projects
+              </span>
+              <p data-en="Leads the Digital Cards product, coordinating client requests, design preparation, delivery follow-up, and customer communication for professional digital invitations."
+                data-sw="Anaongoza bidhaa ya Digital Cards, akiratibu maombi ya wateja, maandalizi ya dizaini, ufuatiliaji wa kazi, na mawasiliano kwa kadi za mwaliko za kidijitali.">
+                Leads the Digital Cards product, coordinating client requests, design preparation, delivery follow-up,
+                and customer communication for professional digital invitations.
+              </p>
             </div>
           </article>
 
           <!-- Kulwa Siaga -->
           <article class="btw-mate" data-aos="fade-up" data-aos-delay="120">
             <div class="btw-mate__photo">
-              <div class="btw-mate__placeholder">K</div>
-              <div class="btw-mate__overlay">
-                <div class="btw-mate__contacts">
-                  <a href="mailto:kulwa@bobtechwaves.co.tz"><i class="bi bi-envelope-fill"></i>kulwa@bobtechwaves.co.tz</a>
-                  <a href="tel:+255656345149"><i class="bi bi-telephone-fill"></i>+255 656 345 149</a>
-                </div>
-                <div class="btw-mate__socials">
-                  <a href="https://wa.me/255656345149" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
-                  <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
-                  <a href="mailto:kulwa@bobtechwaves.co.tz" aria-label="Email"><i class="bi bi-envelope-fill"></i></a>
-                </div>
+              <img src="assets/img/team/kulwa.webp" alt="Kulwa Siaga">
+
+              <div class="btw-mate__socials">
+                <a href="tel:+255656345149" aria-label="Call Kulwa"><i class="bi bi-telephone-fill"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                <a href="https://wa.me/255656345149" target="_blank" rel="noopener" aria-label="WhatsApp"><i
+                    class="bi bi-whatsapp"></i></a>
+                <a href="mailto:kulwa@bobtechwaves.co.tz" aria-label="Email Kulwa"><i
+                    class="bi bi-envelope-fill"></i></a>
               </div>
             </div>
+
             <div class="btw-mate__info">
               <h3>Kulwa Siaga</h3>
-              <span data-en="Lead · Events Portal" data-sw="Kiongozi · Events Portal">Lead · Events Portal</span>
+              <span data-en="Lead - Events Portal" data-sw="Kiongozi - Events Portal">
+                Lead - Events Portal
+              </span>
+              <p data-en="Leads Events Portal coordination, marketing, and event listing support, helping organizers improve visibility, client engagement, and digital event service delivery."
+                data-sw="Anaongoza uratibu wa Events Portal, masoko, na msaada wa kuweka matukio, akiwasaidia waandaaji kuboresha mwonekano, ushirikiano na wateja, na utoaji wa huduma za kidijitali za matukio.">
+                Leads Events Portal coordination, marketing, and event listing support, helping organizers improve
+                visibility, client engagement, and digital event service delivery.
+              </p>
             </div>
           </article>
 
@@ -1115,138 +1290,266 @@
     </section>
 
     <!-- =====================================================================
-         CTA band
-         ===================================================================== -->
+     CTA band
+     ===================================================================== -->
     <section class="btw-section btw-section--dark btw-cta-band">
       <div class="btw-wrap">
         <div class="btw-cta-band__grid">
+
           <div data-aos="fade-right">
-            <h2 data-en="Have an idea? Let's build it well."
-                data-sw="Una wazo? Tuujenge vizuri.">
-              Have an idea? Let's build it well.
+            <h2 data-en="Have an idea? Let's turn it into impact." data-sw="Una wazo? Tulibadilishe kuwa matokeo.">
+              Have an idea? Let's turn it into impact.
             </h2>
+
             <p class="btw-cta-band__lead"
-               data-en="Short timelines, complex problems, ambitious ideas — those are our favourite briefs. Tell us what you're trying to achieve and we'll map a clear, honest path forward."
-               data-sw="Muda mfupi, matatizo magumu, mawazo yenye dhamira — hizo ni miradi tunayoipenda. Tuambie unataka kufikia nini.">
-              Short timelines, complex problems, ambitious ideas — our favourite briefs.
+              data-en="Whether you're looking to improve operations, automate processes, engage customers, or build a new digital product, we're ready to help you transform ideas into practical solutions."
+              data-sw="Iwe unataka kuboresha shughuli, kufanya otomatiki, kuwafikia wateja vizuri zaidi au kujenga bidhaa mpya ya kidijitali, tuko tayari kusaidia kubadilisha mawazo kuwa suluhisho halisi.">
+              Transforming ideas into practical digital solutions that create real value.
             </p>
+
             <ul class="btw-cta-band__list">
-              <li><i class="bi bi-check"></i><span data-en="Free first scoping call" data-sw="Mazungumzo ya kwanza bure">Free first scoping call</span></li>
-              <li><i class="bi bi-check"></i><span data-en="Transparent timelines and pricing" data-sw="Ratiba na bei wazi">Transparent timelines and pricing</span></li>
-              <li><i class="bi bi-check"></i><span data-en="Support continues after launch" data-sw="Msaada unaendelea baada ya uzinduzi">Support continues after launch</span></li>
+              <li>
+                <i class="bi bi-check"></i>
+                <span data-en="Free consultation and project discovery"
+                  data-sw="Ushauri na uchambuzi wa mradi bila malipo">
+                  Free consultation and project discovery
+                </span>
+              </li>
+
+              <li>
+                <i class="bi bi-check"></i>
+                <span data-en="Custom solutions tailored to your needs"
+                  data-sw="Suluhisho maalum kulingana na mahitaji yako">
+                  Custom solutions tailored to your needs
+                </span>
+              </li>
+
+              <li>
+                <i class="bi bi-check"></i>
+                <span data-en="Ongoing support and continuous improvement"
+                  data-sw="Msaada endelevu na maboresho ya mara kwa mara">
+                  Ongoing support and continuous improvement
+                </span>
+              </li>
             </ul>
+
             <a href="#contact" class="btw-btn btw-btn--primary btw-btn--lg">
-              <span data-en="Start a Project" data-sw="Anza Mradi">Start a Project</span>
+              <span data-en="Start a Project" data-sw="Anza Mradi">
+                Start a Project
+              </span>
               <i class="bi bi-arrow-right"></i>
             </a>
           </div>
+
           <div data-aos="fade-left">
-            <img class="btw-cta-band__img" src="assets/img/about/about-3.webp" alt="" />
+            <img class="btw-cta-band__img" src="assets/img/illustration/hero-7.webp" alt="" />
           </div>
+
         </div>
       </div>
     </section>
 
     <!-- =====================================================================
-         Voices (testimonials)
-         ===================================================================== -->
+     Voices (testimonials)
+     ===================================================================== -->
     <section class="btw-section" id="voices">
       <div class="btw-wrap">
 
         <div class="btw-head" data-aos="fade-up">
           <span class="btw-head__pill" data-en="Kind Words" data-sw="Maoni Mazuri">Kind Words</span>
-          <h2 data-en="What clients say about working with us"
-              data-sw="Wanachosema wateja kuhusu kufanya kazi nasi">
-            What clients say about working with us
+          <h2 data-en="What clients say about our digital solutions"
+            data-sw="Wanachosema wateja kuhusu suluhisho zetu za kidijitali">
+            What clients say about our digital solutions
           </h2>
-          <p data-en="Honest words from teams who've launched real products with BOBTechWaves."
-             data-sw="Maneno ya kweli kutoka kwa timu zilizozindua bidhaa halisi na BOBTechWaves.">
-            Honest words from teams who've launched real products with us.
+          <p data-en="Real feedback from customers who have used our digital cards, stock systems, websites, consulting, and innovation platforms."
+            data-sw="Maoni halisi kutoka kwa wateja waliotumia digital cards, mifumo ya stoo, tovuti, ushauri wa teknolojia na majukwaa yetu ya ubunifu.">
+            Honest words from clients who have used our different digital solutions.
           </p>
         </div>
 
-        <div class="btw-voices-grid">
+      </div>
 
-          <article class="btw-voice" data-aos="fade-up">
+      <div class="btw-voices-marquee" aria-label="Testimonials">
+        <div class="btw-voices-track">
+
+          <article class="btw-voice">
             <div class="btw-voice__quote"><i class="bi bi-quote"></i></div>
-            <p data-en="BOBTechWaves turned our scattered spreadsheets into a single system the whole team uses every day. Reports now take minutes, not hours."
-               data-sw="BOBTechWaves walibadilisha Excel zetu zilizotapakaa kuwa mfumo mmoja. Ripoti sasa zinachukua dakika, si masaa.">
-              They turned our scattered spreadsheets into a single system the whole team uses.
+            <p data-en="The digital invitation service helped us reach more people professionally. The guest calling support was also excellent and made communication smoother."
+              data-sw="Huduma ya mialiko ya kidijitali ilitusaidia kuwafikia watu wengi kwa njia ya kisasa. Huduma ya kupiga simu kwa wageni nayo ilikuwa nzuri sana na ilirahisisha mawasiliano.">
+              The digital invitation service helped us reach guests professionally, and the guest calling support made
+              communication smoother.
             </p>
             <div class="btw-voice__by">
-              <img src="assets/img/person/person.png" alt="" />
+              <img src="assets/img/team/person.webp" alt="" />
               <div>
-                <strong>Anitha M.</strong>
-                <span data-en="Operations Manager" data-sw="Meneja wa Uendeshaji">Operations Manager</span>
+                <strong>David Gonad</strong>
+                <span data-en="Digital Cards Client" data-sw="Mteja wa Digital Cards">Digital Cards Client</span>
               </div>
             </div>
           </article>
 
-          <article class="btw-voice btw-voice--accent" data-aos="fade-up" data-aos-delay="60">
+          <article class="btw-voice btw-voice--accent">
             <div class="btw-voice__quote"><i class="bi bi-quote"></i></div>
-            <p data-en="Clear thinker, reliable delivery, and the kind of communication that makes even a complex project feel calm and well-managed."
-               data-sw="Wenye fikra wazi, wanatekeleza kwa uaminifu, na mawasiliano yanayofanya mradi mgumu uonekane wa utulivu.">
-              Clear thinker, reliable delivery, the kind of communication that makes a complex project feel calm.
+            <p data-en="The MUALIKO digital invitation system raised the standard of our wedding. Guests loved the smooth QR check-in and communication."
+              data-sw="Mfumo wa MUALIKO uliboresha hadhi ya harusi yetu. Wageni walipenda urahisi wa QR check-in na mawasiliano.">
+              MUALIKO raised the standard of our wedding with smooth QR check-in and better guest communication.
             </p>
             <div class="btw-voice__by">
-              <img src="assets/img/person/person.png" alt="" />
-              <div>
-                <strong>Grayson K.</strong>
-                <span data-en="Retail Shop Owner" data-sw="Mmiliki wa Duka">Retail Shop Owner</span>
-              </div>
-            </div>
-          </article>
-
-          <article class="btw-voice" data-aos="fade-up" data-aos-delay="120">
-            <div class="btw-voice__quote"><i class="bi bi-quote"></i></div>
-            <p data-en="The MUALIKO digital invitation system raised the bar for our wedding. Guests still talk about how smooth the QR check-in was."
-               data-sw="Mfumo wa MUALIKO uliboresha hadhi ya harusi yetu. Wageni bado wanazungumzia jinsi QR check-in ilivyokwenda vizuri.">
-              MUALIKO raised the bar for our wedding. Guests still talk about the QR check-in.
-            </p>
-            <div class="btw-voice__by">
-              <img src="assets/img/person/person.png" alt="" />
+              <img src="assets/img/team/person.webp" alt="" />
               <div>
                 <strong>James Sayi</strong>
-                <span data-en="Wedding Committee Lead" data-sw="Kiongozi wa Kamati ya Harusi">Wedding Committee Lead</span>
+                <span data-en="Wedding Committee Lead" data-sw="Kiongozi wa Kamati ya Harusi">Wedding Committee
+                  Lead</span>
               </div>
             </div>
           </article>
 
+          <article class="btw-voice">
+            <div class="btw-voice__quote"><i class="bi bi-quote"></i></div>
+            <p data-en="The stock system has been very useful. It has simplified product ordering, helped us know available balances, and made stock updates easier."
+              data-sw="Matumizi ya mfumo yamekuwa na manufaa sana. Umerahisisha uagizaji wa bidhaa stoo, kujua balance iliyopo na kuongeza bidhaa kwa urahisi.">
+              The stock system simplified product ordering, stock balance tracking, and daily inventory updates.
+            </p>
+            <div class="btw-voice__by">
+              <img src="assets/img/team/person.webp" alt="" />
+              <div>
+                <strong>Anitha M.</strong>
+                <span data-en="Store Manager" data-sw="Meneja wa Stoo">Store Manager</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="btw-voice btw-voice--accent">
+            <div class="btw-voice__quote"><i class="bi bi-quote"></i></div>
+            <p data-en="The stock management system helped us control inventory better, reduce confusion, and understand product movement more clearly."
+              data-sw="Mfumo wa usimamizi wa stoo umetusaidia kudhibiti bidhaa vizuri, kupunguza mkanganyiko na kuelewa mzunguko wa bidhaa kwa uwazi zaidi.">
+              The stock system improved inventory control, reduced confusion, and made product movement easier to
+              monitor.
+            </p>
+            <div class="btw-voice__by">
+              <img src="assets/img/team/person.webp" alt="" />
+              <div>
+                <strong>Christian</strong>
+                <span data-en="Stock Management Client" data-sw="Mteja wa Mfumo wa Stoo">Stock Management Client</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="btw-voice">
+            <div class="btw-voice__quote"><i class="bi bi-quote"></i></div>
+            <p data-en="The technology guidance helped us improve how we manage our hall operations, communicate with clients, and plan digital improvements."
+              data-sw="Ushauri wa teknolojia umetusaidia kuboresha uendeshaji wa shughuli za ukumbi, mawasiliano na wateja, pamoja na kupanga maboresho ya kidijitali.">
+              Their technology advice helped us improve operations, client communication, and digital planning.
+            </p>
+            <div class="btw-voice__by">
+              <img src="assets/img/team/person.webp" alt="" />
+              <div>
+                <strong>Nelson</strong>
+                <span data-en="Staff, Mwika Social Halls" data-sw="Mfanyakazi, Mwika Social Halls">Staff, Mwika Social
+                  Halls</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="btw-voice btw-voice--accent">
+            <div class="btw-voice__quote"><i class="bi bi-quote"></i></div>
+            <p data-en="The website has helped us present our hotel more professionally and reach more customers looking for accommodation and hospitality services."
+              data-sw="Tovuti imetusaidia kuitangaza hoteli yetu kwa muonekano wa kitaalamu na kuwafikia wateja zaidi wanaotafuta huduma za malazi.">
+              The website improved our online presence and helped us reach more customers.
+            </p>
+            <div class="btw-voice__by">
+              <img src="assets/img/team/person.webp" alt="" />
+              <div>
+                <strong>Silver Paradise Hotel</strong>
+                <span data-en="Website Development Client" data-sw="Mteja wa Huduma ya Tovuti">Website Development
+                  Client</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="btw-voice">
+            <div class="btw-voice__quote"><i class="bi bi-quote"></i></div>
+            <p data-en="The website gave our property a professional digital presence and made it easier for guests to understand our services and contact us."
+              data-sw="Tovuti imeipa nyumba yetu muonekano wa kitaalamu mtandaoni na kurahisisha wageni kuelewa huduma zetu na kuwasiliana nasi.">
+              The website made our property look professional online and improved guest communication.
+            </p>
+            <div class="btw-voice__by">
+              <img src="assets/img/team/person.webp" alt="" />
+              <div>
+                <strong>The Hill Villas House</strong>
+                <span data-en="Website Development Client" data-sw="Mteja wa Huduma ya Tovuti">Website Development
+                  Client</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="btw-voice btw-voice--accent">
+            <div class="btw-voice__quote"><i class="bi bi-quote"></i></div>
+            <p data-en="The website has helped us showcase our construction services, build trust with clients, and present our company more professionally."
+              data-sw="Tovuti imetusaidia kutangaza huduma zetu za ujenzi, kujenga uaminifu kwa wateja na kuionyesha kampuni yetu kwa muonekano wa kitaalamu.">
+              The website helped us showcase our construction services and build trust with clients.
+            </p>
+            <div class="btw-voice__by">
+              <img src="assets/img/team/person.webp" alt="" />
+              <div>
+                <strong>Eccah Construction Company</strong>
+                <span data-en="Website Development Client" data-sw="Mteja wa Huduma ya Tovuti">Website Development
+                  Client</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="btw-voice">
+            <div class="btw-voice__quote"><i class="bi bi-quote"></i></div>
+            <p data-en="BOQ Portal is important because it helps construction professionals access material information and make better planning, costing, and purchasing decisions."
+              data-sw="BOQ Portal ni muhimu kwa sababu inasaidia wataalamu wa ujenzi kupata taarifa za vifaa na kufanya maamuzi bora ya kupanga, kukadiria gharama na manunuzi.">
+              BOQ Portal helps construction professionals access material information and make better project decisions.
+            </p>
+            <div class="btw-voice__by">
+              <img src="assets/img/team/person.webp" alt="" />
+              <div>
+                <strong>Hendy Simo</strong>
+                <span data-en="BOQ Portal User" data-sw="Mtumiaji wa BOQ Portal">BOQ Portal User</span>
+              </div>
+            </div>
+          </article>
         </div>
       </div>
     </section>
 
     <!-- =====================================================================
-         FAQ
-         ===================================================================== -->
+     FAQ
+     ===================================================================== -->
     <section class="btw-section btw-section--tinted" id="faq">
       <div class="btw-wrap">
 
         <div class="btw-head" data-aos="fade-up">
-          <span class="btw-head__pill" data-en="Frequently Asked" data-sw="Maswali Yanayoulizwa">Frequently Asked</span>
-          <h2 data-en="Answers to questions we hear often"
-              data-sw="Majibu ya maswali tunayoyasikia mara nyingi">
-            Answers to questions we hear often
+          <span class="btw-head__pill" data-en="Frequently Asked" data-sw="Maswali Yanayoulizwa">
+            Frequently Asked
+          </span>
+
+          <h2 data-en="Questions people often ask before working with us"
+            data-sw="Maswali ambayo watu huuliza kabla ya kufanya kazi nasi">
+            Questions people often ask before working with us
           </h2>
-          <p data-en="If you don't find what you're looking for here, send us a message — we usually reply within one business day."
-             data-sw="Usipopata unachotafuta hapa, tuma ujumbe — kwa kawaida tunajibu ndani ya siku moja ya kazi.">
-            If you don't find your answer here, send us a message.
+
+          <p data-en="Here are quick answers about our services, pricing, timelines, support, security, demos, and how to start a project with BOBTechWaves."
+            data-sw="Haya ni majibu mafupi kuhusu huduma zetu, gharama, muda wa utekelezaji, msaada, usalama, demo na namna ya kuanza mradi na BOBTechWaves.">
+            Quick answers about our services, process, support, and how to get started.
           </p>
         </div>
 
         <div class="btw-faq" data-aos="fade-up" data-aos-delay="60">
 
           <div class="btw-faq__item is-on">
-            <h3 class="btw-faq__q"
-                data-en="What services does BOBTechWaves offer?"
-                data-sw="BOBTechWaves inatoa huduma zipi?">
-              What services does BOBTechWaves offer?
+            <h3 class="btw-faq__q" data-en="What does BOBTechWaves do?" data-sw="BOBTechWaves inafanya nini?">
+              What does BOBTechWaves do?
             </h3>
             <div class="btw-faq__a">
               <div>
-                <p data-en="We build web systems and platforms, business automation, event technology, QR solutions, digital invitations (MUALIKO), SMS and WhatsApp messaging tools, technology consulting, and cloud/Microsoft 365 setup — for businesses, institutions, and organisations across Tanzania."
-                   data-sw="Tunajenga mifumo na majukwaa ya tovuti, otomatiki ya biashara, teknolojia ya matukio, suluhisho za QR, mialiko ya kidijitali (MUALIKO), zana za SMS na WhatsApp, ushauri wa kiteknolojia, na usanidi wa cloud/Microsoft 365 — kwa biashara, taasisi na mashirika kote Tanzania.">
-                  We build web systems, automation, event tech, QR solutions, MUALIKO invitations, SMS/WhatsApp tools, consulting, and cloud setup.
+                <p data-en="BOBTechWaves builds practical digital solutions including websites, web systems, automation tools, event technology, QR solutions, digital invitations, cloud setup, and IT consultancy."
+                  data-sw="BOBTechWaves inajenga suluhisho za kidijitali kama tovuti, mifumo ya wavuti, otomatiki, teknolojia ya matukio, QR, mialiko ya kidijitali, cloud na ushauri wa IT.">
+                  We build practical digital solutions that simplify work, improve communication, and support growth.
                 </p>
               </div>
             </div>
@@ -1254,16 +1557,15 @@
           </div>
 
           <div class="btw-faq__item">
-            <h3 class="btw-faq__q"
-                data-en="How much does a custom system cost?"
-                data-sw="Mfumo maalum una gharama gani?">
-              How much does a custom system cost?
+            <h3 class="btw-faq__q" data-en="Can you build a custom system for my business or organisation?"
+              data-sw="Mnaweza kujenga mfumo maalum kwa biashara au taasisi yangu?">
+              Can you build a custom system for my business or organisation?
             </h3>
             <div class="btw-faq__a">
               <div>
-                <p data-en="Pricing depends on scope, complexity, and timeline. Simple internal tools start lower; full multi-user platforms cost more. After a free scoping call we send you a clear written quote with milestones and deliverables — no hidden fees, no inflated estimates."
-                   data-sw="Bei inategemea lengo, ugumu, na muda. Zana rahisi za ndani huanza chini; mifumo kamili ya watumiaji wengi hugharimu zaidi. Baada ya mazungumzo ya bure tunatuma quote wazi yenye hatua na vipengele — bila gharama zilizofichwa.">
-                  Pricing depends on scope. After a free scoping call we send a clear quote with milestones.
+                <p data-en="Yes. We first understand your goals, users, workflow, and challenges, then design a solution that fits your real operations instead of forcing you into a generic template."
+                  data-sw="Ndiyo. Kwanza tunaelewa malengo, watumiaji, mtiririko wa kazi na changamoto zako, kisha tunajenga suluhisho linaloendana na shughuli zako halisi.">
+                  Yes, we build solutions based on your real needs, workflow, and project goals.
                 </p>
               </div>
             </div>
@@ -1271,16 +1573,29 @@
           </div>
 
           <div class="btw-faq__item">
-            <h3 class="btw-faq__q"
-                data-en="How long does a project take?"
-                data-sw="Mradi unachukua muda gani?">
+            <h3 class="btw-faq__q" data-en="How much does a project cost?" data-sw="Mradi unagharimu kiasi gani?">
+              How much does a project cost?
+            </h3>
+            <div class="btw-faq__a">
+              <div>
+                <p data-en="The cost depends on the project scope, features, complexity, and timeline. After understanding your needs, we provide a clear quotation with deliverables, milestones, and transparent pricing."
+                  data-sw="Gharama hutegemea ukubwa wa mradi, vipengele, ugumu na muda wa utekelezaji. Baada ya kuelewa mahitaji yako, tunatoa quotation yenye maelezo, hatua na bei iliyo wazi.">
+                  Pricing depends on scope, but we always provide a clear and transparent quotation.
+                </p>
+              </div>
+            </div>
+            <button class="btw-faq__toggle" type="button" aria-label="Toggle"><i class="bi bi-plus-lg"></i></button>
+          </div>
+
+          <div class="btw-faq__item">
+            <h3 class="btw-faq__q" data-en="How long does a project take?" data-sw="Mradi unachukua muda gani?">
               How long does a project take?
             </h3>
             <div class="btw-faq__a">
               <div>
-                <p data-en="Small projects ship in 2–4 weeks. Mid-sized custom systems usually take 6–10 weeks. Larger national-scale platforms can take 3–6 months. You'll get a clear timeline upfront — and we hit it."
-                   data-sw="Miradi midogo huzinduliwa kwa wiki 2–4. Mifumo ya kati huchukua wiki 6–10. Majukwaa makubwa ya kitaifa huchukua miezi 3–6. Utapata ratiba wazi tangu mwanzo — na tunaifikia.">
-                  Small projects ship in 2–4 weeks. Mid-sized systems take 6–10 weeks. National-scale platforms 3–6 months.
+                <p data-en="Timelines depend on the size and complexity of the work. Small projects may take a few weeks, while larger systems are delivered in planned phases with regular progress updates."
+                  data-sw="Muda hutegemea ukubwa na ugumu wa kazi. Miradi midogo inaweza kuchukua wiki chache, wakati mifumo mikubwa hutekelezwa kwa hatua zenye taarifa za maendeleo mara kwa mara.">
+                  We agree on a realistic timeline before starting and keep you updated throughout delivery.
                 </p>
               </div>
             </div>
@@ -1288,16 +1603,15 @@
           </div>
 
           <div class="btw-faq__item">
-            <h3 class="btw-faq__q"
-                data-en="Do you provide support after launch?"
-                data-sw="Mnatoa msaada baada ya uzinduzi?">
+            <h3 class="btw-faq__q" data-en="Do you provide support after launch?"
+              data-sw="Mnatoa msaada baada ya uzinduzi?">
               Do you provide support after launch?
             </h3>
             <div class="btw-faq__a">
               <div>
-                <p data-en="Yes. Every project includes a post-launch support window covering bug fixes, small adjustments, and team training. After that, you can continue with a monthly support agreement — direct line to the engineers who built your system."
-                   data-sw="Ndio. Kila mradi unajumuisha kipindi cha msaada baada ya uzinduzi kinachogusa kurekebisha makosa, marekebisho madogo, na mafunzo. Baada ya hapo, unaweza kuendelea na makubaliano ya kila mwezi — mawasiliano ya moja kwa moja na timu iliyojenga mfumo wako.">
-                  Yes. Every project includes post-launch support with bug fixes, adjustments, and training. Ongoing monthly agreements available after that.
+                <p data-en="Yes. We continue supporting clients after launch through bug fixes, improvements, guidance, training, and ongoing maintenance depending on the agreed support plan."
+                  data-sw="Ndiyo. Tunaendelea kutoa msaada baada ya uzinduzi kupitia marekebisho, maboresho, ushauri, mafunzo na matengenezo kulingana na makubaliano ya msaada.">
+                  Yes, we provide post-launch support, improvements, training, and maintenance.
                 </p>
               </div>
             </div>
@@ -1305,16 +1619,14 @@
           </div>
 
           <div class="btw-faq__item">
-            <h3 class="btw-faq__q"
-                data-en="Is my data secure with BOBTechWaves?"
-                data-sw="Data yangu iko salama BOBTechWaves?">
-              Is my data secure with BOBTechWaves?
+            <h3 class="btw-faq__q" data-en="Is my data secure?" data-sw="Data yangu iko salama?">
+              Is my data secure?
             </h3>
             <div class="btw-faq__a">
               <div>
-                <p data-en="Yes. We use encrypted connections (HTTPS/TLS), encrypted data storage, role-based access controls, audit logs, and automated daily backups. Security is engineered in from day one — not bolted on later."
-                   data-sw="Ndio. Tunatumia muunganisho uliofungwa (HTTPS/TLS), kuhifadhi data iliyofungwa, ruhusa za majukumu, audit logs, na backups za kila siku. Usalama umejengwa tangu siku ya kwanza.">
-                  Yes. Encrypted connections, encrypted storage, role-based access, audit logs, and daily automated backups.
+                <p data-en="Yes. We build with security in mind, including user roles, access control, backups, secure hosting practices, and reliable system structures to protect your information."
+                  data-sw="Ndiyo. Tunajenga kwa kuzingatia usalama kama ruhusa za watumiaji, udhibiti wa ufikiaji, backup, hosting salama na mfumo imara wa kulinda taarifa zako.">
+                  Yes, we use secure practices to protect your data and keep your system reliable.
                 </p>
               </div>
             </div>
@@ -1322,16 +1634,14 @@
           </div>
 
           <div class="btw-faq__item">
-            <h3 class="btw-faq__q"
-                data-en="Can I see a demo before I commit?"
-                data-sw="Naweza kuona demo kabla ya kuanza?">
-              Can I see a demo before I commit?
+            <h3 class="btw-faq__q" data-en="Can I request a demo?" data-sw="Naweza kuomba demo?">
+              Can I request a demo?
             </h3>
             <div class="btw-faq__a">
               <div>
-                <p data-en="Absolutely. We're happy to walk you through any of our existing systems — BuildCost Portal, Events Portal, MUALIKO, POS, Stock, Hotel, or M&E. Reach out via the contact form, WhatsApp, or a quick call and we'll arrange a live demo."
-                   data-sw="Bila shaka. Tunafurahi kukutembeza kwenye mifumo yetu yoyote — BuildCost Portal, Events Portal, MUALIKO, POS, Stoo, Hoteli, au M&E. Tufikie kupitia fomu, WhatsApp, au simu na tutapanga demo.">
-                  Absolutely. Reach out via the contact form, WhatsApp, or phone and we'll arrange a live demo of any product.
+                <p data-en="Yes. You can request a demo for our available products such as BuildCost Portal, Events Portal, MUALIKO, POS, Stock Management, Hotel Management, Property Management, and M&E systems."
+                  data-sw="Ndiyo. Unaweza kuomba demo kwa bidhaa zetu kama BuildCost Portal, Events Portal, MUALIKO, POS, mfumo wa stoo, hoteli, nyumba na M&E.">
+                  Yes, contact us and we will arrange a demo for the product or solution you are interested in.
                 </p>
               </div>
             </div>
@@ -1339,33 +1649,15 @@
           </div>
 
           <div class="btw-faq__item">
-            <h3 class="btw-faq__q"
-                data-en="Do you support both Swahili and English?"
-                data-sw="Mnasaidia Kiswahili na Kiingereza?">
-              Do you support both Swahili and English?
+            <h3 class="btw-faq__q" data-en="How do we start working together?"
+              data-sw="Tunaanzaje kufanya kazi pamoja?">
+              How do we start working together?
             </h3>
             <div class="btw-faq__a">
               <div>
-                <p data-en="Yes — bilingual by design. Our team works in both languages, our systems can ship with Swahili and English user interfaces, and our documentation and training are available in either language."
-                   data-sw="Ndio — lugha mbili kwa asili. Timu yetu inafanya kazi kwa lugha zote mbili, mifumo yetu inaweza kuzinduliwa na interface ya Kiswahili na Kiingereza, na nyaraka pamoja na mafunzo zinapatikana kwa lugha yoyote.">
-                  Yes — bilingual by design. Our systems, documentation, and training are available in both Swahili and English.
-                </p>
-              </div>
-            </div>
-            <button class="btw-faq__toggle" type="button" aria-label="Toggle"><i class="bi bi-plus-lg"></i></button>
-          </div>
-
-          <div class="btw-faq__item">
-            <h3 class="btw-faq__q"
-                data-en="How do we start a project together?"
-                data-sw="Tunaanzaje mradi pamoja?">
-              How do we start a project together?
-            </h3>
-            <div class="btw-faq__a">
-              <div>
-                <p data-en="The first step is a free scoping call — phone, WhatsApp, or in person. We listen to your goals, challenges, and constraints, then send a written proposal with scope, timeline, and pricing. From there it's design → development → testing → launch → support."
-                   data-sw="Hatua ya kwanza ni mazungumzo ya bure — simu, WhatsApp, au ana kwa ana. Tunasikiliza malengo, changamoto, na vikwazo, kisha tunatuma proposal wazi yenye lengo, ratiba, na bei. Kutoka hapo ni muundo → ujenzi → majaribio → uzinduzi → msaada.">
-                  Start with a free scoping call. We send a written proposal, then move through design, development, testing, launch, and support.
+                <p data-en="You can start by contacting us through the website, WhatsApp, email, or phone. We will discuss your idea, understand your needs, and share the next steps clearly."
+                  data-sw="Unaweza kuanza kwa kuwasiliana nasi kupitia tovuti, WhatsApp, barua pepe au simu. Tutajadili wazo lako, kuelewa mahitaji yako na kueleza hatua zinazofuata kwa uwazi.">
+                  Contact us, share your idea, and we will guide you through the next steps.
                 </p>
               </div>
             </div>
@@ -1384,13 +1676,13 @@
 
         <div class="btw-head" data-aos="fade-up">
           <span class="btw-head__pill" data-en="Get In Touch" data-sw="Wasiliana Nasi">Get In Touch</span>
-          <h2 data-en="Tell us about your project"
-              data-sw="Tuambie kuhusu mradi wako">
-            Tell us about your project
+          <h2 data-en="Let’s discuss your idea or digital project"
+            data-sw="Tujadili wazo lako au mradi wako wa kidijitali">
+            Let’s discuss your idea or digital project
           </h2>
-          <p data-en="Send a message, call, or message us on WhatsApp. We reply within one business day."
-             data-sw="Tuma ujumbe, piga simu, au tuma WhatsApp. Tunajibu ndani ya siku moja ya kazi.">
-            Send a message, call, or message us on WhatsApp.
+          <p data-en="Reach out to us for websites, systems, automation, digital invitations, event technology, cloud solutions, or any idea you want to turn into a practical digital solution."
+            data-sw="Wasiliana nasi kwa tovuti, mifumo, otomatiki, mialiko ya kidijitali, teknolojia ya matukio, cloud au wazo lolote unalotaka kulibadilisha kuwa suluhisho la kidijitali.">
+            Reach out and let’s explore how technology can help bring your idea to life.
           </p>
         </div>
 
@@ -1398,33 +1690,33 @@
 
           <aside class="btw-contact__intro" data-aos="fade-right">
             <h3 data-en="Reach us directly" data-sw="Wasiliana Nasi Moja kwa Moja">Reach us directly</h3>
-            <p data-en="Pick whichever channel is fastest for you — we monitor all of them throughout the working day."
-               data-sw="Chagua njia yoyote inayokufaa — tunaangalia zote katika muda wa kazi.">
+            <p data-en="Pick whichever channel is fastest for you - we monitor all of them throughout the working day."
+              data-sw="Chagua njia yoyote inayokufaa - tunaangalia zote katika muda wa kazi.">
               Pick whichever channel is fastest for you.
             </p>
 
             <div class="btw-channels">
               <a class="btw-channel" href="mailto:info@bobtechwaves.co.tz">
                 <i class="bi bi-envelope-fill"></i>
-                <span>info@bobtechwaves.co.tz</span>
+                <span><strong>Email:</strong> info@bobtechwaves.co.tz</span>
               </a>
               <a class="btw-channel" href="https://wa.me/255656345149" target="_blank" rel="noopener">
                 <i class="bi bi-whatsapp"></i>
-                <span>WhatsApp: +255 656 345 149</span>
+                <span><strong>WhatsApp:</strong> +255 656 345 149</span>
               </a>
               <a class="btw-channel" href="tel:+255656345149">
                 <i class="bi bi-telephone-fill"></i>
-                <span>+255 656 345 149</span>
+                <span><strong>Phone:</strong> +255 656 345 149</span>
               </a>
               <div class="btw-channel">
                 <i class="bi bi-geo-alt-fill"></i>
-                <span>Dar es Salaam, Tanzania</span>
+                <span><strong>Location:</strong> Dar es Salaam, Tanzania</span>
               </div>
               <div class="btw-channel">
                 <i class="bi bi-clock-fill"></i>
-                <span data-en="Mon–Sun · 8:00 AM – 10:00 PM"
-                      data-sw="Jumatatu–Jumapili · 8:00 Asubuhi – 10:00 Usiku">
-                  Mon–Sun · 8:00 AM – 10:00 PM
+                <span data-en="Work Hours: Mon–Sun · 8:00 AM – 10:00 PM"
+                  data-sw="Masaa ya kazi: Jumatatu–Jumapili · 8:00 Asubuhi – 4:00 Usiku">
+                  Work Hours: 8:00 AM – 10:00 PM
                 </span>
               </div>
             </div>
@@ -1435,14 +1727,14 @@
 
               <div>
                 <label data-en="Full Name" data-sw="Jina Kamili">Full Name</label>
-                <input type="text" name="name" required
-                       data-en-ph="Your full name" data-sw-ph="Jina lako kamili" placeholder="Your full name" />
+                <input type="text" name="name" required data-en-ph="Your full name" data-sw-ph="Jina lako kamili"
+                  placeholder="Your full name" />
               </div>
 
               <div>
                 <label data-en="Email" data-sw="Barua Pepe">Email</label>
-                <input type="email" name="email" required
-                       data-en-ph="you@company.com" data-sw-ph="wewe@kampuni.com" placeholder="you@company.com" />
+                <input type="email" name="email" required data-en-ph="user@gmail.com" data-sw-ph="jina@gmail.com"
+                  placeholder="user@gmail.com" />
               </div>
 
               <div>
@@ -1453,15 +1745,23 @@
               <div>
                 <label data-en="I'm Interested In" data-sw="Ninavutiwa Na">I'm Interested In</label>
                 <select name="subject" required>
-                  <option value="" data-en="— Choose a service —" data-sw="— Chagua huduma —">— Choose a service —</option>
-                  <option value="Web System" data-en="Web System / Platform" data-sw="Mfumo wa Tovuti">Web System / Platform</option>
-                  <option value="Business Automation" data-en="Business Automation" data-sw="Otomatiki ya Biashara">Business Automation</option>
-                  <option value="Event Technology" data-en="Event Technology" data-sw="Teknolojia ya Matukio">Event Technology</option>
-                  <option value="MUALIKO" data-en="Digital Invitations (MUALIKO)" data-sw="Mialiko ya Kidijitali (MUALIKO)">Digital Invitations (MUALIKO)</option>
+                  <option value="" data-en="- Choose a service -" data-sw="- Chagua huduma -">- Choose a service -
+                  </option>
+                  <option value="Web System" data-en="Web System / Platform" data-sw="Mfumo wa Tovuti">Web System /
+                    Platform</option>
+                  <option value="Business Automation" data-en="Business Automation" data-sw="Otomatiki ya Biashara">
+                    Business Automation</option>
+                  <option value="Event Technology" data-en="Event Technology" data-sw="Teknolojia ya Matukio">Event
+                    Technology</option>
+                  <option value="MUALIKO" data-en="Digital Invitations (MUALIKO)"
+                    data-sw="Mialiko ya Kidijitali (MUALIKO)">Digital Invitations (MUALIKO)</option>
                   <option value="QR Solutions" data-en="QR Solutions" data-sw="Suluhisho za QR">QR Solutions</option>
-                  <option value="SMS/WhatsApp" data-en="SMS / WhatsApp Tools" data-sw="Zana za SMS / WhatsApp">SMS / WhatsApp Tools</option>
-                  <option value="Consulting" data-en="Technology Consulting" data-sw="Ushauri wa Kiteknolojia">Technology Consulting</option>
-                  <option value="Cloud" data-en="Cloud / Microsoft 365" data-sw="Cloud / Microsoft 365">Cloud / Microsoft 365</option>
+                  <option value="SMS/WhatsApp" data-en="SMS / WhatsApp Tools" data-sw="Zana za SMS / WhatsApp">SMS /
+                    WhatsApp Tools</option>
+                  <option value="Consulting" data-en="Technology Consulting" data-sw="Ushauri wa Kiteknolojia">
+                    Technology Consulting</option>
+                  <option value="Cloud" data-en="Cloud / Microsoft 365" data-sw="Cloud / Microsoft 365">Cloud /
+                    Microsoft 365</option>
                   <option value="Other" data-en="Something else" data-sw="Kingine">Something else</option>
                 </select>
               </div>
@@ -1469,18 +1769,17 @@
               <div class="btw-form__full">
                 <label data-en="Project Details" data-sw="Maelezo ya Mradi">Project Details</label>
                 <textarea name="message" rows="6" required
-                          data-en-ph="Tell us what you're trying to build, who will use it, and any timeline or budget you have in mind."
-                          data-sw-ph="Tuambie unachotaka kujenga, ni cha nani, na muda au bajeti uliyo nayo akilini."
-                          placeholder="Tell us what you're trying to build..."></textarea>
+                  data-en-ph="Tell us what you're trying to build, who will use it, and any timeline or budget you have in mind."
+                  data-sw-ph="Tuambie unachotaka kujenga, ni cha nani, na muda au bajeti uliyo nayo akilini."
+                  placeholder="Tell us what you're trying to build..."></textarea>
               </div>
 
               <div class="btw-form__status">
-                <span class="btw-status-loading" style="display:none"
-                      data-en="Sending..." data-sw="Inatuma...">Sending...</span>
+                <span class="btw-status-loading" style="display:none" data-en="Sending..."
+                  data-sw="Inatuma...">Sending...</span>
                 <span class="btw-status-error" style="display:none"></span>
-                <span class="btw-status-ok" style="display:none"
-                      data-en="Thanks! Your message has been sent."
-                      data-sw="Asante! Ujumbe wako umetumwa.">Thanks! Your message has been sent.</span>
+                <span class="btw-status-ok" style="display:none" data-en="Thanks! Your message has been sent."
+                  data-sw="Asante! Ujumbe wako umetumwa.">Thanks! Your message has been sent.</span>
               </div>
 
               <button type="submit" class="btw-btn btw-btn--primary btw-btn--lg btw-form__submit">
@@ -1497,77 +1796,164 @@
   </main>
 
   <!-- =====================================================================
-       Footer
-       ===================================================================== -->
-  <footer class="btw-foot">
+     Footer
+     ===================================================================== -->
+  <footer class="btw-foot" id="footer">
     <div class="btw-foot__top">
       <div class="btw-wrap btw-foot__row">
 
-        <div>
-          <a class="btw-foot__brand" href="#home">
-            <span class="btw-foot__brand-mark">B</span>
+        <!-- Brand -->
+        <div class="btw-foot__about">
+          <a class="btw-foot__brand" href="#home" aria-label="BOBTechWaves Home">
+            <span class="btw-foot__brand-mark">
+              <img src="assets/img/logo2.webp" alt="BOBTechWaves Logo">
+            </span>
             <span class="btw-foot__brand-text">BOB<span>TechWaves</span></span>
           </a>
+
           <p class="btw-foot__desc"
-             data-en="A digital solutions company helping businesses, institutions, and organisations work better through modern web systems, automation, and event technology."
-             data-sw="Kampuni ya suluhisho za kidijitali inayosaidia biashara, taasisi na mashirika kufanya kazi vizuri kupitia mifumo ya kisasa, otomatiki, na teknolojia ya matukio.">
-            A digital solutions company helping businesses work better.
+            data-en="A digital innovation company delivering modern software solutions, business automation, event technology, and digital products that help organizations grow and operate efficiently."
+            data-sw="Kampuni ya ubunifu wa kidijitali inayotoa suluhisho za kisasa za programu, otomatiki ya biashara, teknolojia ya matukio, na bidhaa za kidijitali zinazosaidia taasisi kukua na kufanya kazi kwa ufanisi.">
+            A digital innovation company delivering modern software solutions, business automation, event technology,
+            and digital products that help organizations grow and operate efficiently.
           </p>
 
           <div class="btw-foot__contact">
-            <p><i class="bi bi-geo-alt"></i><span>Dar es Salaam, Tanzania</span></p>
-            <p><i class="bi bi-telephone"></i><a href="tel:+255656345149">+255 656 345 149</a></p>
-            <p><i class="bi bi-envelope"></i><a href="mailto:info@bobtechwaves.co.tz">info@bobtechwaves.co.tz</a></p>
+            <p>
+              <i class="bi bi-geo-alt"></i>
+              <span>Dar es Salaam, Tanzania</span>
+            </p>
+
+            <p>
+              <i class="bi bi-telephone"></i>
+              <span>
+                <strong data-en="Phone:" data-sw="Simu:">Phone:</strong>
+                <a href="tel:+255656345149">+255 656 345 149</a>
+              </span>
+            </p>
+
+            <p>
+              <i class="bi bi-envelope"></i>
+              <span>
+                <strong data-en="Email:" data-sw="Barua Pepe:">Email:</strong>
+                <a href="mailto:info@bobtechwaves.co.tz">info@bobtechwaves.co.tz</a>
+              </span>
+            </p>
           </div>
 
           <div class="btw-foot__socials">
-            <a href="https://wa.me/255656345149" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
-            <a href="https://www.facebook.com/bobtechwaves" target="_blank" rel="noopener" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
-            <a href="https://www.instagram.com/bobtechwaves" target="_blank" rel="noopener" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
-            <a href="https://www.linkedin.com/in/joseph-mwacha-173684227/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            <a href="https://wa.me/255656345149" target="_blank" rel="noopener" aria-label="WhatsApp">
+              <i class="bi bi-whatsapp"></i>
+            </a>
+            <a href="https://www.facebook.com/bobtechwaves" target="_blank" rel="noopener" aria-label="Facebook">
+              <i class="bi bi-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com/bobtechwaves" target="_blank" rel="noopener" aria-label="Instagram">
+              <i class="bi bi-instagram"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/joseph-mwacha-173684227/" target="_blank" rel="noopener"
+              aria-label="LinkedIn">
+              <i class="bi bi-linkedin"></i>
+            </a>
           </div>
         </div>
 
+        <!-- Quick Links -->
         <div class="btw-foot__links">
           <h4 data-en="Quick Links" data-sw="Viungo">Quick Links</h4>
           <ul>
             <li><i class="bi bi-chevron-right"></i><a href="#home" data-en="Home" data-sw="Nyumbani">Home</a></li>
             <li><i class="bi bi-chevron-right"></i><a href="#about" data-en="About" data-sw="Kuhusu">About</a></li>
-            <li><i class="bi bi-chevron-right"></i><a href="#services" data-en="Services" data-sw="Huduma">Services</a></li>
-            <li><i class="bi bi-chevron-right"></i><a href="#projects" data-en="Products" data-sw="Bidhaa">Products</a></li>
+            <li><i class="bi bi-chevron-right"></i><a href="#services" data-en="Services" data-sw="Huduma">Services</a>
+            </li>
+            <li><i class="bi bi-chevron-right"></i><a href="#projects" data-en="Products" data-sw="Bidhaa">Products</a>
+            </li>
             <li><i class="bi bi-chevron-right"></i><a href="#team" data-en="Team" data-sw="Timu">Team</a></li>
             <li><i class="bi bi-chevron-right"></i><a href="#faq" data-en="FAQ" data-sw="Maswali">FAQ</a></li>
-            <li><i class="bi bi-chevron-right"></i><a href="#contact" data-en="Contact" data-sw="Wasiliana">Contact</a></li>
+            <li><i class="bi bi-chevron-right"></i><a href="#contact" data-en="Contact" data-sw="Wasiliana">Contact</a>
+            </li>
           </ul>
         </div>
 
+        <!-- Products -->
         <div class="btw-foot__links">
           <h4 data-en="Products" data-sw="Bidhaa">Products</h4>
           <ul>
-            <li><i class="bi bi-chevron-right"></i><a href="https://web.bobtechwaves.co.tz/" target="_blank" rel="noopener">BuildCost Portal</a></li>
-            <li><i class="bi bi-chevron-right"></i><a href="https://eventsportal.co.tz" target="_blank" rel="noopener">Events Portal</a></li>
-            <li><i class="bi bi-chevron-right"></i><a href="#services" data-en="MUALIKO Invitations" data-sw="MUALIKO Mialiko">MUALIKO Invitations</a></li>
-            <li><i class="bi bi-chevron-right"></i><a href="#services" data-en="POS & Stock System" data-sw="Mfumo wa POS na Stoo">POS &amp; Stock System</a></li>
-            <li><i class="bi bi-chevron-right"></i><a href="#services" data-en="Hotel & Property" data-sw="Hoteli na Nyumba">Hotel &amp; Property</a></li>
+            <li><i class="bi bi-chevron-right"></i><a href="https://web.bobtechwaves.co.tz/" target="_blank"
+                rel="noopener">BuildCost Portal</a></li>
+            <li><i class="bi bi-chevron-right"></i><a href="https://eventsportal.co.tz" target="_blank"
+                rel="noopener">Events Portal</a></li>
+            <li><i class="bi bi-chevron-right"></i><a href="#projects" data-en="MUALIKO Invitations"
+                data-sw="MUALIKO Mialiko">MUALIKO Invitations</a></li>
+            <li><i class="bi bi-chevron-right"></i><a href="#projects" data-en="Stock Management System"
+                data-sw="Mfumo wa Usimamizi wa Stoo">Stock Management System</a></li>
+            <li><i class="bi bi-chevron-right"></i><a href="#projects" data-en="POS & Stock System"
+                data-sw="Mfumo wa POS na Stoo">POS &amp; Stock System</a></li>
+            <li><i class="bi bi-chevron-right"></i><a href="#projects" data-en="Hotel & Property System"
+                data-sw="Mfumo wa Hoteli na Nyumba">Hotel &amp; Property System</a></li>
+            <li>
+              <i class="bi bi-chevron-right"></i>
+              <a href="#projects" data-en="Monitoring & Evaluation System" data-sw="Mfumo wa Ufuatiliaji na Tathmini">
+                Monitoring & Evaluation System
+              </a>
+            </li>
           </ul>
         </div>
 
-        <div>
+        <!-- Subscription -->
+        <div class="btw-foot__subscribe">
           <h4 data-en="Get Updates" data-sw="Pokea Taarifa">Get Updates</h4>
+
           <p class="btw-sub-note"
-             data-en="Subscribe to receive product launches, technical articles, and BOBTechWaves news."
-             data-sw="Jisajili kupokea uzinduzi wa bidhaa, makala za kiteknolojia, na taarifa za BOBTechWaves.">
-            Subscribe to receive product launches and news.
+            data-en="Subscribe via email, phone, or both to receive product launches, service updates, event technology news, and BOBTechWaves announcements."
+            data-sw="Jisajili kwa barua pepe, simu, au vyote ili kupokea uzinduzi wa bidhaa, masasisho ya huduma, taarifa za teknolojia ya matukio, na matangazo ya BOBTechWaves.">
+            Subscribe via email, phone, or both to receive product launches, service updates, event technology news, and
+            BOBTechWaves announcements.
           </p>
-          <form id="btwSub" class="btw-sub" novalidate>
-            <div class="btw-sub-row">
-              <input type="text" name="contact"
-                     data-en-ph="Enter email or phone"
-                     data-sw-ph="Andika barua pepe au simu"
-                     placeholder="Enter email or phone" />
-              <button type="submit" data-en="Subscribe" data-sw="Jisajili">Subscribe</button>
+
+          <form id="btwSubscribeForm" class="btw-sub" action="https://formspree.io/f/moqbapbw" method="POST">
+
+            <div class="btw-sub-group">
+              <label class="btw-sub-label" data-en="Subscription Method" data-sw="Njia ya Usajili">
+                Subscription Method
+              </label>
+
+              <div class="btw-sub-methods">
+                <label class="btw-sub-method">
+                  <input type="radio" name="subscription_type" value="email" checked>
+                  <i class="bi bi-envelope"></i>
+                  <span data-en="Email" data-sw="Barua Pepe">Email</span>
+                </label>
+
+                <label class="btw-sub-method">
+                  <input type="radio" name="subscription_type" value="phone">
+                  <i class="bi bi-telephone"></i>
+                  <span data-en="Phone" data-sw="Simu">Phone</span>
+                </label>
+
+                <label class="btw-sub-method">
+                  <input type="radio" name="subscription_type" value="both">
+                  <i class="bi bi-bell"></i>
+                  <span data-en="Both" data-sw="Vyote">Both</span>
+                </label>
+              </div>
             </div>
-            <small class="btw-sub-msg" id="btwSubMsg"></small>
+
+            <div id="btwEmailField" class="btw-sub-field">
+              <input type="email" name="email" class="btw-sub-input" placeholder="Email address"
+                data-en-ph="Email address" data-sw-ph="Anwani ya barua pepe" autocomplete="email">
+            </div>
+
+            <div id="btwPhoneField" class="btw-sub-field is-hidden">
+              <input type="tel" name="phone" id="btwPhoneInput" class="btw-sub-input" placeholder="255656345149"
+                maxlength="12" inputmode="numeric" autocomplete="tel">
+            </div>
+
+            <button type="submit" class="btw-sub-btn" data-en="Subscribe" data-sw="Jisajili">
+              Subscribe
+            </button>
+
+            <small id="btwSubMsg" class="btw-sub-msg"></small>
           </form>
         </div>
 
@@ -1576,14 +1962,25 @@
 
     <div class="btw-foot__base">
       <div class="btw-wrap">
-        <p>&copy; <span id="btwYear"></span> <strong>BOBTechWaves</strong> · <span data-en="All rights reserved" data-sw="Haki zote zimehifadhiwa">All rights reserved</span></p>
+        <p>
+          &copy; <span id="btwYear"></span>
+          <strong>BOBTechWaves</strong> ·
+          <span data-en="All rights reserved" data-sw="Haki zote zimehifadhiwa">
+            All rights reserved
+          </span>
+        </p>
+
         <div class="btw-credit">
-          <span data-en="Built in Dar es Salaam · A product of" data-sw="Imejengwa Dar es Salaam · Bidhaa ya">Built in Dar es Salaam · A product of</span>
+          <span data-en="Built in Dar es Salaam · Digital solutions by"
+            data-sw="Imejengwa Dar es Salaam · Suluhisho za kidijitali na">
+            Developed by
+          </span>
           <a href="https://bobtechwaves.co.tz/" target="_blank" rel="noopener">BOBTechWaves</a>
         </div>
       </div>
     </div>
   </footer>
+
 
   <!-- Scroll to top -->
   <button id="btwToTop" class="btw-totop" type="button" aria-label="Back to top">
@@ -1592,6 +1989,107 @@
 
   <!-- AOS animations -->
   <script src="assets/vendor/aos/aos.js"></script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const yearEl = document.getElementById("btwYear");
+      const form = document.getElementById("btwSubscribeForm");
+      const msg = document.getElementById("btwSubMsg");
+      const emailField = document.getElementById("btwEmailField");
+      const phoneField = document.getElementById("btwPhoneField");
+      const phoneInput = document.getElementById("btwPhoneInput");
+      const subscriptionTypes = document.querySelectorAll('input[name="subscription_type"]');
+
+      if (yearEl) {
+        yearEl.textContent = new Date().getFullYear();
+      }
+
+      function setMessage(text, type) {
+        if (!msg) return;
+
+        msg.textContent = text;
+        msg.classList.remove("is-ok", "is-err");
+
+        if (type === "ok") {
+          msg.classList.add("is-ok");
+        }
+
+        if (type === "err") {
+          msg.classList.add("is-err");
+        }
+      }
+
+      function getSelectedSubscriptionType() {
+        const selected = document.querySelector('input[name="subscription_type"]:checked');
+        return selected ? selected.value : "email";
+      }
+
+      function updateSubscriptionFields() {
+        const type = getSelectedSubscriptionType();
+
+        if (!emailField || !phoneField) return;
+
+        if (type === "email") {
+          emailField.classList.remove("is-hidden");
+          phoneField.classList.add("is-hidden");
+        }
+
+        if (type === "phone") {
+          emailField.classList.add("is-hidden");
+          phoneField.classList.remove("is-hidden");
+        }
+
+        if (type === "both") {
+          emailField.classList.remove("is-hidden");
+          phoneField.classList.remove("is-hidden");
+        }
+
+        setMessage("", "");
+      }
+
+      subscriptionTypes.forEach(function (radio) {
+        radio.addEventListener("change", updateSubscriptionFields);
+      });
+
+      if (phoneInput) {
+        phoneInput.addEventListener("input", function () {
+          this.value = this.value.replace(/\D/g, "").slice(0, 12);
+        });
+      }
+
+      if (form) {
+        form.addEventListener("submit", function (event) {
+          event.preventDefault();
+
+          const type = getSelectedSubscriptionType();
+          const emailInput = form.querySelector('input[name="email"]');
+          const phoneInputField = form.querySelector('input[name="phone"]');
+
+          const email = emailInput ? emailInput.value.trim() : "";
+          const phone = phoneInputField ? phoneInputField.value.trim() : "";
+
+          const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+          const phonePattern = /^255\d{9}$/;
+
+          if ((type === "email" || type === "both") && !emailPattern.test(email)) {
+            setMessage("Please enter a valid email address.", "err");
+            return;
+          }
+
+          if ((type === "phone" || type === "both") && !phonePattern.test(phone)) {
+            setMessage("Please enter a valid phone number starting with 255, for example 255656345149.", "err");
+            return;
+          }
+
+          setMessage("Thank you! Your subscription has been received.", "ok");
+          form.reset();
+          updateSubscriptionFields();
+        });
+      }
+
+      updateSubscriptionFields();
+    });
+  </script>
 
   <!-- Site logic -->
   <script>
@@ -1691,13 +2189,13 @@
           var value = el.dataset[lang + 'Ph'];
           if (value !== undefined && 'placeholder' in el) el.placeholder = value;
         });
-        try { localStorage.setItem('btw.lang', lang); } catch (_) {}
+        try { localStorage.setItem('btw.lang', lang); } catch (_) { }
       }
       langButtons.forEach(function (btn) {
         btn.addEventListener('click', function () { applyLanguage(btn.dataset.lang); });
       });
       var savedLang = 'en';
-      try { savedLang = localStorage.getItem('btw.lang') || 'en'; } catch (_) {}
+      try { savedLang = localStorage.getItem('btw.lang') || 'en'; } catch (_) { }
       if (savedLang === 'sw') applyLanguage('sw');
 
       /* ----- Contact form (Formspree) ----- */
@@ -1751,5 +2249,72 @@
       }
     })();
   </script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const track = document.querySelector(".btw-voices-track");
+      const cards = document.querySelectorAll(".btw-voice");
+
+      if (!track || cards.length === 0) return;
+
+      let currentIndex = 0;
+      let timer = null;
+
+      function isMobile() {
+        return window.innerWidth <= 768;
+      }
+
+      function showMobileCard() {
+        if (!isMobile()) {
+          track.style.transform = "";
+          return;
+        }
+
+        track.style.transform = `translateX(-${currentIndex * 100}%)`;
+        currentIndex = (currentIndex + 1) % cards.length;
+      }
+
+      function startSlider() {
+        clearInterval(timer);
+
+        if (isMobile()) {
+          currentIndex = 0;
+          showMobileCard();
+          timer = setInterval(showMobileCard, 5000);
+        } else {
+          track.style.transform = "";
+        }
+      }
+
+      startSlider();
+      window.addEventListener("resize", startSlider);
+    });
+  </script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const faqButtons = document.querySelectorAll(".btw-faq__toggle");
+
+      faqButtons.forEach(function (button) {
+        button.addEventListener("click", function (event) {
+          event.preventDefault();
+          event.stopPropagation();
+
+          const currentItem = button.closest(".btw-faq__item");
+          const isOpen = currentItem.classList.contains("is-on");
+
+          document.querySelectorAll(".btw-faq__item").forEach(function (item) {
+            item.classList.remove("is-on");
+          });
+
+          if (!isOpen) {
+            currentItem.classList.add("is-on");
+          }
+        });
+      });
+    });
+  </script>
+
 </body>
+
 </html>
